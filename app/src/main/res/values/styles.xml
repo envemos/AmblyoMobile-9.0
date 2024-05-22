@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="MyCustomTheme.Base">
+
+    </style>
+
+    <style name="MyCustomTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/grisMedioClaro</item>
+        <item name="colorPrimaryDark">@color/Negro</item>
+        <item name="colorAccent">@color/Negro</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="MyCustomTheme.Base" />
+
+    <style name="AppTheme.PopupOverlay" parent="MyCustomTheme.Base" />
+
+</resources>

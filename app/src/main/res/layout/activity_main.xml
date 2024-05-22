@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="@dimen/padding1"
+    android:background="@color/grisClaro"
+    >
+
+    <ScrollView
+        android:id="@+id/scrollViewActivityMain"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin1"
+        android:scrollbars="none"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:id="@+id/imageButtonMainOffer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/margin1"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/buy"
+                android:cropToPadding="false"
+                android:onClick="buy"
+                android:padding="0dp"
+                android:scaleType="fitXY" />
+
+            <GridLayout
+                android:id="@+id/gridLayoutActivityMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:columnCount="2"
+                android:rowCount="3"
+
+                >
+
+                <Button
+                    android:id="@+id/ButtonActivityMenuSnake"
+                    android:layout_width="@dimen/BotonJuegoDimen"
+                    android:layout_height="@dimen/BotonJuegoDimen"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_gravity="fill"
+                    android:layout_margin="@dimen/BotonJuegoMargin"
+
+
+                    android:gravity="center"
+                    android:onClick="Snake"
+                    android:text="@string/snake"
+                    android:textSize="@dimen/BotonJuegoText" />
+
+                <Button
+                    android:id="@+id/ButtonActivityMenuTetris"
+                    android:layout_width="@dimen/BotonJuegoDimen"
+                    android:layout_height="@dimen/BotonJuegoDimen"
+                    android:layout_gravity="fill"
+                    android:layout_margin="@dimen/BotonJuegoMargin"
+                    android:gravity="center"
+                    android:onClick="Tetris"
+
+                    android:text="@string/tetris"
+                    android:textSize="@dimen/BotonJuegoText" />
+
+                <Button
+                    android:id="@+id/ButtonActivityMenuFlappy"
+                    android:layout_width="@dimen/BotonJuegoDimen"
+                    android:layout_height="@dimen/BotonJuegoDimen"
+                    android:layout_gravity="fill"
+                    android:layout_margin="@dimen/BotonJuegoMargin"
+                    android:gravity="center"
+                    android:onClick="Flappy"
+
+                    android:text="@string/flappy"
+                    android:textSize="@dimen/BotonJuegoText" />
+
+                <Button
+                    android:id="@+id/ButtonActivityMenuBreake"
+                    android:layout_width="@dimen/BotonJuegoDimen"
+                    android:layout_height="@dimen/BotonJuegoDimen"
+                    android:layout_gravity="fill"
+                    android:layout_margin="@dimen/BotonJuegoMargin"
+                    android:gravity="center"
+                    android:onClick="Breaker"
+
+
+                    android:text="@string/breaker"
+                    android:textSize="@dimen/BotonJuegoText" />
+
+                <Button
+                    android:id="@+id/ButtonActivityMenuSpace"
+                    android:layout_width="@dimen/BotonJuegoDimen"
+                    android:layout_height="@dimen/BotonJuegoDimen"
+                    android:layout_row="2"
+                    android:layout_column="0"
+                    android:layout_gravity="fill"
+                    android:layout_margin="@dimen/BotonJuegoMargin"
+
+
+                    android:gravity="center"
+                    android:onClick="Space"
+                    android:text="@string/space"
+                    android:textSize="@dimen/BotonJuegoText" />
+
+                <Button
+                    android:id="@+id/ButtonActivityMenuPong"
+                    android:layout_width="@dimen/BotonJuegoDimen"
+                    android:layout_height="@dimen/BotonJuegoDimen"
+                    android:layout_row="2"
+                    android:layout_column="1"
+                    android:layout_gravity="fill"
+                    android:layout_margin="@dimen/BotonJuegoMargin"
+
+                    android:gravity="center"
+                    android:onClick="Pong"
+
+                    android:text="@string/pong"
+                    android:textSize="@dimen/BotonJuegoText" />
+
+
+            </GridLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin2"
+                android:layout_marginTop="@dimen/margin1"
+                android:layout_marginBottom="0dp"
+                android:orientation="horizontal">
+
+                <soft.evm.amblyopiamobilegames.utils.GifImageView
+                    android:id="@+id/cargandoSesion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/margin2"
+                    android:layout_marginRight="@dimen/margin2"
+                    android:layout_marginBottom="@dimen/margin2"
+
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/buttonActivityMainSesion"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/boton_redondeado"
+
+                    android:contentDescription="@string/sesi_n"
+                    android:onClick="verSesion"
+                    android:padding="@dimen/padding1"
+
+                    android:src="@mipmap/male"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <ImageView
+
+                    android:id="@+id/imageViewActivityMainFAQ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/boton_redondeado"
+                    android:contentDescription="@string/mi_actividad"
+                    android:onClick="verInfo"
+                    android:padding="@dimen/padding1"
+                    android:src="@mipmap/info"
+
+                    app:layout_constraintEnd_toStartOf="@+id/buttonActivityMainOpciones"
+                    app:layout_constraintStart_toEndOf="@+id/buttonActivityMainSesion"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/buttonActivityMainOpciones"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/boton_redondeado"
+                    android:contentDescription="@string/title_activity_settings"
+
+                    android:onClick="verOpciones"
+                    android:padding="@dimen/padding1"
+
+
+                    android:src="@mipmap/settings"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin2"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="@dimen/margin2"
+                android:layout_marginBottom="@dimen/margin1"
+                android:orientation="horizontal">
+
+                <soft.evm.amblyopiamobilegames.utils.GifImageView
+                    android:id="@+id/cargandoActividad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin2"
+                    android:layout_marginBottom="@dimen/margin2"
+
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+
+                    android:id="@+id/buttonActivityVerActividad"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/boton_redondeado"
+
+                    android:contentDescription="@string/mi_actividad"
+                    android:onClick="verActividad"
+                    android:padding="@dimen/padding1"
+
+                    android:src="@mipmap/calendar3"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+
+                    />
+
+                <ImageView
+
+                    android:id="@+id/buttonActivityDailyTime"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/boton_redondeado"
+                    android:contentDescription="@string/title_activity_settings"
+                    android:onClick="verDailyTime"
+
+                    android:padding="@dimen/padding1"
+                    android:src="@mipmap/clock"
+                    app:layout_constraintEnd_toStartOf="@+id/buttonActivityRemidMe"
+                    app:layout_constraintStart_toEndOf="@+id/buttonActivityVerActividad"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <ImageView
+                    android:id="@+id/buttonActivityRemidMe"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/boton_redondeado"
+                    android:contentDescription="@string/sesi_n"
+                    android:onClick="verRemidMe"
+                    android:padding="@dimen/padding1"
+
+                    android:src="@mipmap/history_clock_button"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

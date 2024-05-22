@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="activity_vertical_margin">30dp</dimen>
+    <dimen name="activity_horizontal_margin">30dp</dimen>
+    <dimen name="font_size_verysmall">26sp</dimen>
+    <dimen name="font_size_small">30sp</dimen>
+    <dimen name="font_size_medium">40sp</dimen>
+    <dimen name="font_title">47sp</dimen>
+    <dimen name="font_grande">100sp</dimen>
+    <dimen name="font_game_name">45sp</dimen>
+</resources>

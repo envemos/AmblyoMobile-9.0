@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".juegos.snake.SnakeConfig"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/velocidad"
+        android:textSize="@dimen/font_size_medium"
+        android:textColor="@color/colorVerde"
+        android:fontFamily="@font/archivo_black"/>
+
+    <SeekBar
+        android:id="@+id/seekBarVelocidad"
+        style="@android:style/Widget.SeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="10"
+        android:progress="3" />
+
+    <CheckBox
+        android:id="@+id/checkBoxVelocidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/autoincrementar_velocidad"
+        android:onClick="onCheckboxClicked"
+        android:textSize="@dimen/font_size_medium"
+        android:textColor="@color/colorAzul"
+        android:fontFamily="@font/archivo_black"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxMuros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/muros"
+        android:onClick="onCheckboxClicked"
+        android:textSize="@dimen/font_size_medium"
+        android:textColor="@color/colorAzul"
+        android:fontFamily="@font/archivo_black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/buttonVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guardar_cambios"
+        android:onClick="finish"
+        android:textSize="@dimen/font_size_medium"
+        android:background="@color/colorRojo"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/archivo_black"/>
+
+</LinearLayout>

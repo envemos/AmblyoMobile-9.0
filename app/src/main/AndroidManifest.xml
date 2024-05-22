@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="soft.evm.amblyopiamobilegames"
+    android:installLocation="auto">
+
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- permission required to automatically restart a repeating alarm if the user reboots the device -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:node="replace"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        tools:node="replace"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        tools:replace="fullBackupContent"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".webview.WebViewActivity" />
+        <activity android:name=".info.InfoActivity" />
+        <activity
+            android:name=".juegos.YoutubeActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".DailyTimeActivity" />
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActividadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SesionActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait" />
+        <activity android:name=".SettingsActivity" />
+        <activity
+            android:name=".table.TableViewHistorial"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".table.TableViewRanking"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".juegos.GameActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".juegos.Reglas" />
+        <activity
+            android:name=".juegos.snake.game.SnakeGame"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".juegos.tetris.game.TetrisGame"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".juegos.flappy.game.FlappyGame"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".juegos.breaker.game.BreakoutGame"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".juegos.space.game.SpaceInvadersGame"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".juegos.pong.game.Pong"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity android:name=".juegos.snake.SnakeConfig"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".juegos.tetris.TetrisConfig"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".juegos.breaker.BreakerConfig"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".juegos.space.SpaceConfig"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".RemindMeActivity"
+            android:screenOrientation="portrait"/>
+
+        <meta-data
+            android:name="com.android.apk.key"
+            android:value="{$BASE_64_ENCODED_PUBLIC_ID}" />
+        <meta-data
+            android:name="com.android.flappy.key"
+            android:value="{$BASE_64_ENCODED_FLAPPY_ID}" />
+        <meta-data
+            android:name="com.android.breake.key"
+            android:value="{$BASE_64_ENCODED_BREAKE_ID}" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" /> <!-- Register the Alarm Receiver -->
+        <!--meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" /--> <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7188592076082444~3136493795" /> <!-- Sample AdMob App ID: ca-app-pub-7188592076082444~3136493795 -->
+        <receiver
+            android:name=".remindMe.AlarmReceiver"
+            android:enabled="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

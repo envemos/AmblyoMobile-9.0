@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- banner layout -->
+    <dimen name="bannerHeight">60dp</dimen>
+    <dimen name="marginLineBanner">8dp</dimen>
+    <dimen name="heightLineBanner">2dp</dimen>
+
+    <!-- padding -->
+    <dimen name="padding0">8dp</dimen>
+    <dimen name="padding1">16dp</dimen>
+    <dimen name="padding2">32dp</dimen>
+
+    <!-- margin -->
+    <dimen name="margin1">8dp</dimen>
+    <dimen name="margin2">16dp</dimen>
+    <dimen name="margin3">32dp</dimen>
+
+    <!-- accountSelector -->
+    <dimen name="amblyoMobileTitle">50sp</dimen>
+    <dimen name="buttonloginwidth">200dp</dimen>
+    <dimen name="buttonloginheight">40dp</dimen>
+
+    <!-- activityGame -->
+    <dimen name="GamesTitleGame">70sp</dimen>
+
+    <!-- activityMenuJuegos -->
+    <dimen name="GamesTitle">50sp</dimen>
+    <dimen name="BotonJuegoDimen">150dp</dimen>
+    <dimen name="BotonJuegoText">20sp</dimen>
+    <dimen name="BotonJuegoMargin">2dp</dimen>
+
+    <!-- menuConfiguracionJuego -->
+    <dimen name="ConfigFontText">40sp</dimen>
+    <dimen name="ConfigButtonDimen">80dp</dimen>
+    <dimen name="ConfigCheckBox">30sp</dimen>
+
+    <!-- activityMain -->
+    <dimen name="MainTitle">50sp</dimen>
+    <dimen name="WelcomeDimen">30sp</dimen>
+    <dimen name="ButtonPlayDimen">50sp</dimen>
+
+    <!-- menuConfiguracionMain -->
+    <dimen name="SettingsFontText">30sp</dimen>
+    <dimen name="SettingsCheckBox">30sp</dimen>
+
+    <!-- menuActividad -->
+    <dimen name="ActividadTitleFontText">40sp</dimen>
+    <dimen name="ActividadFontText">30sp</dimen>
+    <dimen name="ActividadButtonText">20sp</dimen>
+
+    <!-- menuSesion -->
+    <dimen name="SesionTitleFontText">40sp</dimen>
+    <dimen name="SesionFontText">18sp</dimen>
+    <dimen name="SesionButtonText">20sp</dimen>
+
+    <!-- reglas -->
+    <dimen name="ReglasTitle">50sp</dimen>
+    <dimen name="ReglasText">20sp</dimen>
+
+    <!-- table -->
+    <dimen name="Table_font_size_medium">30sp</dimen>
+    <dimen name="Table_font_size_small">20sp</dimen>
+    <dimen name="Table_font_size_verysmall">20sp</dimen>
+
+    <!-- FAQ -->
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">200dp</dimen>
+    <dimen name="item_width">200dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="text_1">20sp</dimen>
+    <dimen name="text_2">16sp</dimen>
+    <dimen name="text_3">34sp</dimen>
+</resources>

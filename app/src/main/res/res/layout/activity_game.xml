@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".juegos.GameActivity"
+    android:padding="16dp"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jugar"
+        android:onClick="iniciarJuego"
+        android:textSize="@dimen/font_size_medium"
+        android:background="@color/colorVerde"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/archivo_black"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/buttonConfiguracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/configuraci_n"
+        android:onClick="iniciarConfig"
+        android:textSize="@dimen/font_size_medium"
+        android:background="@color/colorVerde"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/archivo_black"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reglas"
+        android:textSize="@dimen/font_size_medium"
+        android:onClick="iniciarReglas"
+        android:background="@color/colorAzul"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/archivo_black"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mejores_puntuaciones"
+        android:onClick="iniciarRanking"
+        android:textSize="@dimen/font_size_medium"
+        android:background="@color/colorAzul"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/archivo_black"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:textSize="@dimen/font_size_medium"
+        android:background="@color/colorRojo"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/anton"
+        android:id="@+id/buttonVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/volver_atr_s"
+        android:onClick="finish"
+        />
+
+</LinearLayout>

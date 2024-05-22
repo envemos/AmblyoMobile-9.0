@@ -1,0 +1,197 @@
+<resources>
+    <string name="app_name">AmblyopiaMobileGames</string>
+    <string name="salir">Exit</string>
+    <string name="opciones">Options</string>
+    <string name="sesi_n">Sesión</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="jugar">Play</string>
+    <string name="configuraci_n">Configuración</string>
+    <string name="reglas">Rules</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="ojo_izquierdo">Left eye</string>
+    <string name="ojo_derecho">Right eye</string>
+    <string name="ojo_vago">Lazy eye</string>
+    <string name="color_de_fondo">Background color</string>
+    <string name="activar_sonido">Sound active</string>
+    <string name="velocidad">Speed</string>
+    <string name="autoincrementar_velocidad">Autoincrement speed</string>
+    <string name="muros">Walls</string>
+
+    <string-array name="colors">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Cyan</item>
+        <item>Magenta</item>
+        <item>Green</item>
+    </string-array>
+
+    <string-array name="ojo_selec">
+        <item>Left</item>
+        <item>Right</item>
+    </string-array>
+
+    <string-array name="blanco_negro">
+        <item>White</item>
+        <item>Black</item>
+    </string-array>
+
+    <string name="snake">Snake</string>
+    <string name="snakeR">Snake is a game where you must eat as many apples as possible. The snake increases in length with each apple that it eats, which increases the difficulty. The higher the speed, the higher the score. Choose the speed in the configuration menu. You can increase speed as time goes by if you activate the auto-speed in the configuration menu. You can play with walls (more difficult but more score) or without walls. You can activate or deactivate the walls in the configuration menu. The snake dies when it hits the wall or with itself. Move the snake by sliding your fingers across the screen in the direction you want: up, down, right or left.</string>
+    <string name="tetris">Tetris</string>
+    <string name="tetrisR">Get points by fitting the geometric figures that fall on the board so that you can completely fill a row of the board. Then a line will be emptied and you will get points. You can empty several lines simultaneously, which will give you more points. When you fit a figure, another figure will automatically appear at the top of the board. The game ends when the board overflows, that is, you have consumed all the rows. The higher the level, the higher the speed and the higher the score. Choose the level in the configuration menu. You can increase the level as you fill in rows if you activate the auto-speed in the configuration menu. Move the figure by sliding your fingers across the screen either to the right or to the left. Swipe up or press the screen to rotate the figure. Slide down to accelerate the fall (when you\'re sure where you want to place it).</string>
+    <string name="flappy">Flappy</string>
+    <string name="flappyR">Try to survive as long as possible by crossing the colored ball through the obstacles, without hitting or leaving the screen. The ball will move more and more quickly. The ball will descend automatically by gravity. You must jump to raise the ball. Press the screen to jump.</string>
+    <string name="volver_atr_s">Get back to the game menu</string>
+    <string name="mejores_puntuaciones">Top scores</string>
+    <string name="time">Time:</string>
+    <string name="level">Level:</string>
+    <string name="score">Score:</string>
+    <string name="mi_historial">Mi history</string>
+    <string name="nivel">Level</string>
+    <string name="volver_al_men">Get back to the main menu</string>
+    <string name="guardar_cambios">Save changes</string>
+    <string name="volver_atr_as">Get back</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="password">Password</string>
+    <string name="sign_in">Login</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="register">Register</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="title_activity_register">Register</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="username">Username</string>
+    <string name="borrar_cuenta">Borrar cuenta</string>
+    <string name="badeyegames">BadEyeGames</string>
+    <string name="email">Email</string>
+    <string name="cerrar_sesi_n">Cerrar sesión</string>
+    <string name="crear_cuenta">Crear cuenta:</string>
+    <string name="iniciar_sesi_n">Iniciar Sesión:</string>
+    <string name="mi_cuenta">Mi cuenta</string>
+    <string name="code_breaker">Code Breaker</string>
+    <string name="breaker">Breake</string>
+    <string name="amblyopia">Amblyopia</string>
+    <string name="mobile">Mobile</string>
+    <string name="games">Games</string>
+    <string name="comprar_gafas">Buy glasses</string>
+    <string name="www_amblyopiaonlinegames_com">www.amblyopiaonlinegames.com</string>
+    <string name="m_s_informaci_n_en">Más información en:</string>
+    <string name="breakeR">We have to break all the blocks of the panel with the ball, which we must hit with the mobile platform. You can move the platform to the right or to the left, keeping pressing the corresponding side of the screen. The ball is in continuous movement. When hitting the mobile platform or with a block, the ball bounces. When hit with a block, it disappears and we earn points. When all the blocks disappear, we rise in level and gain a life. The higher the level, the higher the score and the faster the ball. Each time the ball bounces on the bottom of the panel, we lose a life. When we lose all lives, the game ends. You can configure the initial level in the configuration menu.</string>
+    <string name="resultados_">results)</string>
+    <string name="nombre">Name</string>
+    <string name="juego">Game</string>
+    <string name="fecha">Day</string>
+    <string name="puntuacion">Score</string>
+    <string name="comidos_">eaten:</string>
+    <string name="lineas_">Lines:</string>
+    <string name="saltos_">Jumps:</string>
+    <string name="levels_">Levels:</string>
+    <string name="tiempo">Time</string>
+    <string name="nivel_">Level:</string>
+    <string name="score_">Score:</string>
+    <string name="time_">Time:</string>
+    <string name="LEVEL_">LEVEL:</string>
+    <string name="menu_pausa">Pause Menu</string>
+    <string name="quieres_salir">Do you want to leave the game?</string>
+    <string name="reanudar">Resume</string>
+    <string name="seguro">¿Are you sure?</string>
+    <string name="no_se_guarda">The game will not be saved</string>
+    <string name="si">Yes</string>
+    <string name="no">No</string>
+    <string name="velocidad_">Speed:</string>
+    <string name="level_">Level:</string>
+    <string name="_score">Score:</string>
+    <string name="lives_">Lives:</string>
+    <string name="lose">You lose! Your score was: </string>
+    <string name="has_comido">You have eaten </string>
+    <string name="manzanas"> apples</string>
+    <string name="cargando">Loading...</string>
+    <string name="email_username">Email/Username</string>
+
+</resources>

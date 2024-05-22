@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingsActivity"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ojo_izquierdo"
+        android:textColor="@color/colorAzul"
+        android:fontFamily="@font/archivo_black"
+        android:textSize="@dimen/font_size_medium"
+        />
+
+    <Spinner
+        android:id="@+id/left_eye"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/colors"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ojo_derecho"
+        android:textColor="@color/colorAzul"
+        android:fontFamily="@font/archivo_black"
+        android:textSize="@dimen/font_size_medium"
+        />
+
+    <Spinner
+        android:id="@+id/right_eye"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/colors"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ojo_vago"
+        android:textColor="@color/colorRojo"
+        android:fontFamily="@font/archivo_black"
+        android:textSize="@dimen/font_size_medium"/>
+
+    <Spinner
+        android:id="@+id/weak_eye"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/ojo_selec"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/color_de_fondo"
+        android:textColor="@color/colorVerde"
+        android:fontFamily="@font/archivo_black"
+        android:textSize="@dimen/font_size_medium"
+        />
+
+    <Spinner
+        android:id="@+id/fondo_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/blanco_negro"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBoxSonido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activar_sonido"
+        android:onClick="onCheckboxClicked"
+        android:textColor="@color/colorVerde"
+        android:fontFamily="@font/archivo_black"
+        android:textSize="@dimen/font_size_medium"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/buttonVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guardar_cambios"
+        android:onClick="finish"
+        android:textSize="@dimen/font_size_medium"
+        android:background="@color/colorRojo"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/archivo_black"/>
+
+</LinearLayout>

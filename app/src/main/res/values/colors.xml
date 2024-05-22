@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAzul1">#38b6ff</color>
+    <color name="colorAzul">#0096FF</color>
+    <color name="azulado">#123456</color>
+    <color name="colorRojo">#e20004</color>
+    <color name="colorVerde">#01d277</color>
+    <color name="colorAmarillo">#FFEB3B</color>
+    <color name="colorRosa">#FF96FF</color>
+
+    <color name="Blanco">#ffffff</color>
+    <color name="grisClaro">#E9E9E9</color>
+    <color name="grisMedioClaro">#C8C8C8</color>
+    <color name="grisMedioMedioClaro">#969696</color>
+    <color name="gris">#646464</color>
+    <color name="grisMedioOscuro">#323232</color>
+    <color name="grisOscuro">#232323</color>
+    <color name="Negro">#ff000000</color>
+
+    <color name="colorlinebanner">#002CFD</color>
+
+</resources>

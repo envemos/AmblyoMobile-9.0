@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding1"
+    android:background="@color/grisClaro"
+    >
+
+    <LinearLayout
+        android:id="@+id/LayoutBannerSuperior"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bannerHeight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/bannerSuperior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:adSize="SMART_BANNER"
+            app:adUnitId="@string/admobbannercodesuperior"
+            />
+
+    </LinearLayout>
+    <View
+        android:id="@+id/lineSuperior"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/heightLineBanner"
+        android:background="@color/colorlinebanner"
+        app:layout_constraintTop_toBottomOf="@+id/LayoutBannerSuperior"
+        />
+
+    <ScrollView
+        android:id="@+id/scrollViewActivityGame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin1"
+        app:layout_constraintBottom_toTopOf="@+id/LayoutBannerInferior"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/LayoutBannerSuperior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textViewActivityGameTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin1"
+                android:text="GAME"
+                android:textSize="@dimen/GamesTitleGame" />
+
+            <ImageView
+                android:id="@+id/buttonActivityGamePlay"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin2"
+                android:layout_marginBottom="@dimen/margin2"
+                android:background="@drawable/boton_redondeado"
+                android:contentDescription="@string/jugar"
+                android:onClick="iniciarJuego"
+
+                android:paddingStart="@dimen/padding2"
+                android:paddingTop="@dimen/padding1"
+                android:paddingEnd="@dimen/padding2"
+                android:paddingBottom="@dimen/padding0"
+                android:src="@mipmap/gamepad" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/buttonActivityMainOpciones"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin2"
+                    android:layout_marginBottom="@dimen/margin2"
+                    android:background="@drawable/boton_redondeado"
+                    android:contentDescription="@string/title_activity_settings"
+                    android:onClick="verOpciones"
+
+                    android:padding="@dimen/padding1"
+                    android:src="@mipmap/settings" />
+
+                <ImageView
+                    android:id="@+id/buttonActivityConfiguracion"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin2"
+                    android:layout_marginBottom="@dimen/margin2"
+                    android:background="@drawable/boton_redondeado"
+                    android:contentDescription="@string/configuraci_n"
+                    android:onClick="iniciarConfig"
+
+                    android:padding="@dimen/padding1"
+                    android:src="@mipmap/support5" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/buttonActivityGameInfo"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin2"
+                    android:layout_marginBottom="@dimen/margin2"
+                    android:background="@drawable/boton_redondeado"
+                    android:contentDescription="@string/reglas"
+                    android:onClick="iniciarReglas"
+
+                    android:padding="@dimen/padding1"
+                    android:src="@mipmap/info" />
+
+                <ImageView
+                    android:id="@+id/buttonActivityGameRanking"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin2"
+                    android:layout_marginBottom="@dimen/margin2"
+                    android:background="@drawable/boton_redondeado"
+                    android:contentDescription="@string/mejores_puntuaciones"
+                    android:onClick="iniciarRanking"
+
+                    android:padding="@dimen/padding1"
+                    android:src="@mipmap/cup" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/buttonActivityGameVolver"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin2"
+                android:layout_marginBottom="@dimen/margin2"
+                android:background="@drawable/boton_redondeado"
+                android:contentDescription="@string/volver_atr_s"
+                android:onClick="go_back"
+
+                android:padding="@dimen/padding1"
+                android:src="@drawable/go_left" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/imageButtonYoutube"
+        android:contentDescription="@string/amblyomobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/boton_redondeado"
+        android:padding="0dp"
+        android:onClick="reproducirVideo"
+        app:layout_constraintBottom_toBottomOf="@+id/scrollViewActivityGame"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@mipmap/youtube"
+        />
+
+    <ImageView
+
+        android:id="@+id/imageViewActivityGameFAQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin2"
+        android:background="@drawable/campo_redondeado_white"
+        android:contentDescription="@string/mi_actividad"
+        android:onClick="verInfo"
+        android:padding="@dimen/padding0"
+        android:src="@android:drawable/ic_menu_help"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonYoutube"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonYoutube" />
+
+    <View
+        android:id="@+id/lineInferior"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/heightLineBanner"
+        android:background="@color/colorlinebanner"
+        app:layout_constraintBottom_toTopOf="@+id/LayoutBannerInferior"
+        android:layout_marginTop="@dimen/marginLineBanner"
+        />
+    <LinearLayout
+        android:id="@+id/LayoutBannerInferior"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bannerHeight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/bannerInferior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:adSize="SMART_BANNER"
+            app:adUnitId="@string/admobbannercodeinferior"
+            android:layout_marginTop="@dimen/marginLineBanner"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

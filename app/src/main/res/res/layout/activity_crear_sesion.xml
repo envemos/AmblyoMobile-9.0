@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sesion.CrearSesion"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crear_cuenta"
+            android:textSize="@dimen/font_size_medium"
+            android:textColor="@color/colorVerde"
+            android:fontFamily="@font/aldrich"
+            />
+
+        <AutoCompleteTextView
+            android:id="@+id/editTextUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:hint="@string/username"
+            android:fontFamily="@font/aldrich"
+            android:textSize="@dimen/font_size_medium"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:hint="@string/email"
+            android:textSize="@dimen/font_size_medium"
+            android:fontFamily="@font/aldrich"/>
+
+        <EditText
+            android:id="@+id/editTextPassword1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:hint="@string/password"
+            android:fontFamily="@font/aldrich"
+            android:textSize="@dimen/font_size_medium"/>
+
+        <EditText
+            android:id="@+id/editTextPassword2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:hint="@string/password"
+            android:textSize="@dimen/font_size_medium"
+            android:fontFamily="@font/aldrich"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/register"
+            android:textStyle="bold"
+            android:onClick="register"
+            android:textSize="@dimen/font_size_medium"
+            android:background="@color/colorAzul"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/archivo_black"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:textSize="@dimen/font_size_medium"
+        android:background="@color/colorRojo"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/anton"
+        android:id="@+id/email_regi_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/volver_atr_as"
+        android:onClick="atras"/>
+
+</LinearLayout>

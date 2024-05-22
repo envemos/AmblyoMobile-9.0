@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".juegos.breaker.BreakerConfig"
+    android:padding="@dimen/padding1"
+    android:background="@color/grisClaro"
+    >
+
+    <LinearLayout
+        android:id="@+id/LayoutBannerSuperior"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bannerHeight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/bannerSuperior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:adSize="SMART_BANNER"
+            app:adUnitId="@string/admobbannercodesuperior"
+            />
+    </LinearLayout>
+    <View
+        android:id="@+id/lineSuperior"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/heightLineBanner"
+        android:background="@color/colorlinebanner"
+        app:layout_constraintTop_toBottomOf="@+id/LayoutBannerSuperior"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin1"
+        app:layout_constraintBottom_toTopOf="@+id/LayoutBannerInferior"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/LayoutBannerSuperior">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewBreakerConfigNivel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nivel"
+                android:textColor="@color/Negro"
+                android:textSize="@dimen/ConfigFontText"
+                android:textAlignment="center"
+                android:layout_margin="@dimen/margin1"/>
+
+            <SeekBar
+                android:id="@+id/seekBarBreakerConfigVelocidad"
+                style="@android:style/Widget.Material.SeekBar.Discrete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="10"
+                android:progress="3"
+                android:progressDrawable="@drawable/volume_control"
+                android:thumbTint="@color/Blanco"
+                tools:targetApi="n"
+                android:layout_margin="@dimen/margin1"/>
+
+            <ImageView
+                android:id="@+id/imageViewBreakerConfigGuardar"
+                android:layout_width="@dimen/ConfigButtonDimen"
+                android:layout_height="@dimen/ConfigButtonDimen"
+                android:padding="@dimen/padding1"
+                android:background="@drawable/boton_redondeado"
+                android:layout_gravity="center"
+                android:onClick="finish"
+                android:text="@string/guardar_cambios"
+                android:contentDescription="@string/guardar_cambios"
+                android:src="@drawable/save_balck"
+                android:layout_margin="@dimen/margin1"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <View
+        android:id="@+id/lineInferior"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/heightLineBanner"
+        android:background="@color/colorlinebanner"
+        app:layout_constraintBottom_toTopOf="@+id/LayoutBannerInferior"
+        android:layout_marginTop="@dimen/marginLineBanner"
+        />
+    <LinearLayout
+        android:id="@+id/LayoutBannerInferior"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bannerHeight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/bannerInferior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:adSize="SMART_BANNER"
+            app:adUnitId="@string/admobbannercodeinferior"
+            android:layout_marginTop="@dimen/marginLineBanner"
+            />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- activityGame -->
+    <dimen name="GamesTitleGame">120sp</dimen>
+
+    <!-- activityMenuJuegos -->
+    <dimen name="GamesTitle">100sp</dimen>
+    <dimen name="BotonJuegoDimen">330dp</dimen>
+    <dimen name="BotonJuegoText">40sp</dimen>
+    <dimen name="BotonJuegoMargin">4dp</dimen>
+
+    <!-- menuConfiguracionJuego -->
+    <dimen name="ConfigFontText">80sp</dimen>
+    <dimen name="ConfigButtonDimen">100dp</dimen>
+
+    <!-- activityMain -->
+    <dimen name="MainTitle">110sp</dimen>
+    <dimen name="WelcomeDimen">30sp</dimen>
+    <dimen name="ButtonPlayDimen">70sp</dimen>
+
+    <!-- menuConfiguracionMain -->
+    <dimen name="SettingsFontText">50sp</dimen>
+    <dimen name="SettingsCheckBox">40sp</dimen>
+
+    <!-- menuActividad -->
+    <dimen name="ActividadTitleFontText">70sp</dimen>
+    <dimen name="ActividadFontText">50sp</dimen>
+    <dimen name="ActividadButtonText">30sp</dimen>
+
+    <!-- menuSesion -->
+    <dimen name="SesionTitleFontText">80sp</dimen>
+    <dimen name="SesionFontText">30sp</dimen>
+    <dimen name="SesionButtonText">30sp</dimen>
+
+    <!-- reglas -->
+    <dimen name="ReglasTitle">100sp</dimen>
+    <dimen name="ReglasText">40sp</dimen>
+
+    <!-- table -->
+    <dimen name="Table_font_size_medium">40sp</dimen>
+    <dimen name="Table_font_size_small">30sp</dimen>
+    <dimen name="Table_font_size_verysmall">30sp</dimen>
+</resources>

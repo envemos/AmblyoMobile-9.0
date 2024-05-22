@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- activityMenuJuegos -->
+    <dimen name="BotonJuegoDimen">140dp</dimen>
+
+    <!-- menuConfiguracionJuego -->
+    <dimen name="ConfigFontText">30sp</dimen>
+    <dimen name="ConfigCheckBox">25sp</dimen>
+
+    <!-- menuSesion -->
+    <dimen name="SesionTitleFontText">45sp</dimen>
+    <dimen name="SesionFontText">18sp</dimen>
+    <dimen name="SesionButtonText">20sp</dimen>
+
+    <!-- menuActividad -->
+    <dimen name="ActividadTitleFontText">40sp</dimen>
+    <dimen name="ActividadFontText">30sp</dimen>
+    <dimen name="ActividadButtonText">20sp</dimen>
+</resources>

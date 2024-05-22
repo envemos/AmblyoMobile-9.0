@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AmblyopiaMobileGames</string>
+    <string name="salir">出口</string>
+    <string name="opciones">选项</string>
+    <string name="sesi_n">Sesión</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="jugar">玩</string>
+    <string name="configuraci_n">组态</string>
+    <string name="reglas">规则</string>
+    <string name="title_activity_settings">选项</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="ojo_izquierdo">左眼</string>
+    <string name="ojo_derecho">右眼</string>
+    <string name="ojo_vago">懒惰的眼睛</string>
+    <string name="color_de_fondo">背景颜色</string>
+    <string name="activar_sonido">激活声音</string>
+    <string name="velocidad">速度</string>
+    <string name="autoincrementar_velocidad">自动增加速度</string>
+    <string name="muros">穆罗斯</string>
+
+    <string-array name="colors">
+        <item>红</item>
+        <item>蓝</item>
+        <item>黄</item>
+        <item>青色</item>
+        <item>品红</item>
+        <item>绿</item>
+    </string-array>
+
+    <string-array name="ojo_selec">
+        <item>左</item>
+        <item>权</item>
+    </string-array>
+
+    <string-array name="blanco_negro">
+        <item>白</item>
+        <item>黑</item>
+    </string-array>
+
+    <string name="snake">蛇</string>
+    <string name="snakeR">蛇是一个游戏，你必须尽可能多地吃苹果。随着它吃的每个苹果蛇的长度增加，这增加了难度。速度越高，得分越高。在配置菜单中选择速度。如果您在配置菜单中激活自动速度，随着时间的推移，您可以提高速度。你可以玩墙（难度更高但得分更高）或没有墙。您可以在配置菜单中激活或关闭墙壁。蛇撞到墙上或与自身碰撞时死亡。通过在所需的方向上滑动屏幕来移动蛇：向上，向下，向右或向左。</string>
+    <string name="tetris">俄罗斯方块</string>
+    <string name="tetrisR">通过拟合板上的几何图形来获得积分，以便完全填充板的一排。然后一条线将被清空，您将获得积分。你可以同时清空几行，这会给你更多的分数。当你身材合适时，另一个数字将自动出现在棋盘的顶部。游戏结束时，董事会溢出，也就是说，你已经消耗了所有的行。等级越高，速度越高，得分越高。在配置菜单中选择级别。如果在配置菜单中激活自动速度，则可以在填充行时增加级别。通过在屏幕上向右或向左滑动手指来移动图形。向上轻扫或按屏幕旋转图形。向下滑动以加速坠落（当您确定要放置它的位置时）。</string>
+    <string name="flappy">飞扬</string>
+    <string name="flappyR">尝试通过穿过障碍物的彩球尽可能长时间地存活，而不会击中或离开屏幕。球会移动得越来越快。球将通过重力自动下降。你必须跳起来举起球。按屏幕跳转。</string>
+    <string name="volver_atr_s">返回到游戏菜单</string>
+    <string name="mejores_puntuaciones">最高分</string>
+    <string name="time">时间:</string>
+    <string name="level">水平:</string>
+    <string name="score">比分:</string>
+    <string name="mi_historial">我的历史</string>
+    <string name="nivel">水平</string>
+    <string name="volver_al_men">返回主菜单</string>
+    <string name="guardar_cambios">保存更改</string>
+    <string name="volver_atr_as">回去吧</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="password">Password</string>
+    <string name="sign_in">Login</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="register">Register</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="title_activity_register">Register</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="username">Username</string>
+    <string name="borrar_cuenta">Borrar cuenta</string>
+    <string name="badeyegames">BadEyeGames</string>
+    <string name="email">Email</string>
+    <string name="cerrar_sesi_n">Cerrar sesión</string>
+    <string name="crear_cuenta">Crear cuenta:</string>
+    <string name="iniciar_sesi_n">Iniciar Sesión:</string>
+    <string name="mi_cuenta">Mi cuenta</string>
+    <string name="code_breaker">破解代码</string>
+    <string name="breaker">Breake</string>
+    <string name="amblyopia">Amblyopia</string>
+    <string name="mobile">Mobile</string>
+    <string name="games">Games</string>
+    <string name="comprar_gafas">买眼镜</string>
+    <string name="www_amblyopiaonlinegames_com">www.amblyopiaonlinegames.com</string>
+    <string name="m_s_informaci_n_en">更多信息:</string>
+    <string name="breakeR">我们必须用球击出面板上的所有块，我们必须使用移动平台。您可以将平台向右或向左移动，同时按住屏幕的相应一侧。球持续运动。当碰到移动平台或挡块时，球会弹跳。当被一个街区命中时，它会消失，我们可以获得积分。当所有的街区消失后，我们就会升级并获得生命。水平越高，得分越高，球速越快。每次球在板的底部反弹，我们都会失去生命。当我们失去所有生命时，游戏就结束了。您可以在配置菜单中配置初始级别。</string>
+    <string name="resultados_">结果)</string>
+    <string name="nombre">名</string>
+    <string name="juego">游戏</string>
+    <string name="fecha">日期</string>
+    <string name="puntuacion">比分</string>
+    <string name="comidos_">吃:</string>
+    <string name="lineas_">线:</string>
+    <string name="saltos_">跳跃:</string>
+    <string name="levels_">水平:</string>
+    <string name="tiempo">时间</string>
+    <string name="nivel_">水平:</string>
+    <string name="score_">比分:</string>
+    <string name="time_">时间:</string>
+    <string name="LEVEL_">LEVEL:</string>
+    <string name="menu_pausa">暂停菜单</string>
+    <string name="quieres_salir">你想离开游戏吗？</string>
+    <string name="reanudar">简历</string>
+    <string name="seguro">你确定吗？</string>
+    <string name="no_se_guarda">游戏不会被保存</string>
+    <string name="si">如果</string>
+    <string name="no">不</string>
+    <string name="velocidad_">速度:</string>
+    <string name="level_">水平:</string>
+    <string name="_score">比分:</string>
+    <string name="lives_">生活:</string>
+    <string name="lose">你输了！你的分数是: </string>
+    <string name="has_comido">你吃过了 </string>
+    <string name="manzanas"> 苹果</string>
+    <string name="cargando">载入中...</string>
+    <string name="email_username">Email/Username</string>
+</resources>

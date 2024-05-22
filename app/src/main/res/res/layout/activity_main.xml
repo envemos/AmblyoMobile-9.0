@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.evm.amblyopiamobilegames.MainActivity"
+    android:padding="16dp"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0"
+        android:layout_marginBottom="15dp"
+        android:padding="0dp"
+        android:textAlignment="center"
+        android:layout_gravity="center">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/amblyopia"
+            android:textAlignment="center"
+            android:textColor="@color/colorVerde"
+            android:textSize="@dimen/font_title" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/mobile"
+            android:textAlignment="center"
+            android:textColor="@color/colorAzul"
+            android:textSize="@dimen/font_title" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/games"
+            android:textAlignment="center"
+            android:textColor="@color/colorRojo"
+            android:textSize="@dimen/font_title" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonVerJuegos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorVerde"
+        android:fontFamily="@font/anton"
+        android:onClick="verMenuJuegos"
+        android:text="@string/jugar"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/font_size_medium" />
+
+    <Button
+        android:textSize="@dimen/font_size_medium"
+        android:background="@color/colorVerde"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/buttonOpciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/anton"
+        android:onClick="verOpciones"
+        android:text="@string/opciones"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/Bienvenido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:fontFamily="@font/anton"
+        android:textSize="20sp"
+        android:layout_margin="10sp"/>
+
+    <Button
+        android:id="@+id/buttonSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sesi_n"
+        android:fontFamily="@font/anton"
+        android:onClick="verSesion"
+        android:textSize="@dimen/font_size_medium"
+        android:background="@color/colorAzul"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/buttonCerrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorAzul"
+        android:fontFamily="@font/anton"
+        android:onClick="cerrar"
+        android:text="@string/cerrar_sesi_n"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/font_size_medium" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="@string/comprar_gafas"
+        android:onClick="verGafas"
+        android:textSize="@dimen/font_size_medium"
+        android:background="@color/colorAzul"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/anton"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/m_s_informaci_n_en"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/font_size_medium" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="@string/www_amblyopiaonlinegames_com"
+        android:onClick="verSitioWeb"
+        android:textSize="@dimen/font_size_medium"
+        android:background="@color/colorRojo"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/anton"
+        />
+
+    <Button
+        android:textSize="@dimen/font_size_medium"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/buttonSalir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/anton"
+        android:text="@string/salir"
+        android:onClick="salir"/>
+
+</LinearLayout>

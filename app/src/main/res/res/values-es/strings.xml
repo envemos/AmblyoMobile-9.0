@@ -1,0 +1,197 @@
+<resources>
+    <string name="app_name">AmblyopiaMobileGames</string>
+    <string name="salir">Salir</string>
+    <string name="opciones">Opciones</string>
+    <string name="sesi_n">Sesión</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="jugar">Jugar</string>
+    <string name="configuraci_n">Configuración</string>
+    <string name="reglas">Reglas</string>
+    <string name="title_activity_settings">Opciones</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="ojo_izquierdo">Ojo izquierdo</string>
+    <string name="ojo_derecho">Ojo derecho</string>
+    <string name="ojo_vago">Ojo vago</string>
+    <string name="color_de_fondo">Color de fondo</string>
+    <string name="activar_sonido">Activar sonido</string>
+    <string name="velocidad">Velocidad</string>
+    <string name="autoincrementar_velocidad">Autoincrementar velocidad</string>
+    <string name="muros">Muros</string>
+
+    <string-array name="colors">
+        <item>Rojo</item>
+        <item>Azul</item>
+        <item>Amarillo</item>
+        <item>Cian</item>
+        <item>Magenta</item>
+        <item>Verde</item>
+    </string-array>
+
+    <string-array name="ojo_selec">
+        <item>Izquierdo</item>
+        <item>Derecho</item>
+    </string-array>
+
+    <string-array name="blanco_negro">
+        <item>Blanco</item>
+        <item>Negro</item>
+    </string-array>
+
+    <string name="snake">Snake</string>
+    <string name="snakeR">Snake es un juego donde debes comerte el mayor número de manzanas posible. La serpiente aumenta de longitud con cada manzana que come, lo cual aumenta la dificultad. A mayor velocidad, mayor será la puntuación. Elige la velocidad en el menú de configuración. Puedes ir aumentado de velocidad a medida que pasa el tiempo si activas la autovelocidad en el menú de configuración. Pudes jugar con muros (más difícil pero más puntuación) o sin muros. Puedes activar o desactivar los muros en el menú de configuración. La serpiente muere cuando choca con el muro o consigo misma. Desplaza la serpiente deslizando los dedos por la pantalla en la dirección que desees: arriba, abajo, derecha o izquierda.</string>
+    <string name="tetris">Tetris</string>
+    <string name="tetrisR">Consigue puntos consiguiendo encajar las figuras geométricas que van cayendo por el tablero de tal forma que consigas rellenar completamente una fila del tablero. Entonces se vaciará una línea y conseguirás puntos. Puedes vaciar varias líneas simultáneamente, lo cual te dará más puntos. Cuando encajes una figura, automáticamente aparecerá otra en la parte superior del tablero. El juego termina cuando se desborde el tablero, es decir, hayas consumido todas las filas. A mayor nivel, mayor velocidad y mayor puntuación. Elige el nivel en el menú de configuración. Puedes ir aumentado de nivel a medida que vas rellenando filas si activas la autovelocidad en el menú de configuración. Desplaza la figura deslizando los dedos por la pantalla bien a la derecha o bien a la izquierda. Desliza hacia arriba o pulsa la pantalla para rotar la figura. Desliza hacia abajo para acelerar la caída (cuando ya estés seguro donde la quieres colocar).</string>
+    <string name="flappy">Flappy</string>
+    <string name="flappyR">Intenta sobrevivir el mayor tiempo posible atravesando la bola de color por los obstaculos, sin chocar ni salirse de la pantalla. La bola se irá desplazando cada vez más deprisa. La bola descenderá automáticamente por la gravedad. Debes saltar para elevar la bola. Pulsa la pantalla para saltar.</string>
+    <string name="volver_atr_s">Volver al menú de juego</string>
+    <string name="mejores_puntuaciones">Mejores puntuaciones</string>
+    <string name="time">Tiempo:</string>
+    <string name="level">Nivel:</string>
+    <string name="score">Puntuación:</string>
+    <string name="mi_historial">Mi historial</string>
+    <string name="nivel">Nivel</string>
+    <string name="volver_al_men">Volver al menú principal</string>
+    <string name="guardar_cambios">Guardar cambios</string>
+    <string name="volver_atr_as">Volver atrás</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="password">Password</string>
+    <string name="sign_in">Login</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="register">Register</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="title_activity_register">Register</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="username">Username</string>
+    <string name="borrar_cuenta">Borrar cuenta</string>
+    <string name="badeyegames">BadEyeGames</string>
+    <string name="email">Email</string>
+    <string name="cerrar_sesi_n">Cerrar sesión</string>
+    <string name="crear_cuenta">Crear cuenta:</string>
+    <string name="iniciar_sesi_n">Iniciar Sesión:</string>
+    <string name="mi_cuenta">Mi cuenta</string>
+    <string name="code_breaker">Code Breaker</string>
+    <string name="breaker">Breake</string>
+    <string name="amblyopia">Amblyopia</string>
+    <string name="mobile">Mobile</string>
+    <string name="games">Games</string>
+    <string name="comprar_gafas">Comprar gafas</string>
+    <string name="www_amblyopiaonlinegames_com">www.amblyopiaonlinegames.com</string>
+    <string name="m_s_informaci_n_en">Más información en:</string>
+    <string name="breakeR">Tenemos que romper todos los bloques del panel con la bola, que debemos golpear con la plataforma móvil. Puedes mover la plataforma hacia la derecha o hacia la izquierda, manteniendo pulsando el lado correspondiente de la pantalla. La bola está en continuo movimiento. Al chocar con la plataforma móvil o con un bloque, la bola rebota. Al chocar con un bloque, éste desaparece y ganamos puntos. Al desaparecer todos los bloques, subimos de nivel y ganamos una vida. A mayor nivel, mayor puntuación y mayor velocidad de la bola. Cada vez que la bola rebote en la parte inferior del panel, perdemos una vida. Cuando perdamos todas las vidas, el juego finaliza. Pudes configurar el nivel inicial en el menú de configuración.</string>
+    <string name="resultados_">resultados)</string>
+    <string name="nombre">Nombre</string>
+    <string name="juego">Juego</string>
+    <string name="fecha">Fecha</string>
+    <string name="puntuacion">Puntuación</string>
+    <string name="comidos_">Comidos:</string>
+    <string name="lineas_">Líneas:</string>
+    <string name="saltos_">Saltos:</string>
+    <string name="levels_">Niveles:</string>
+    <string name="tiempo">Tiempo</string>
+    <string name="nivel_">Nivel:</string>
+    <string name="score_">Puntuación:</string>
+    <string name="time_">Tiempo:</string>
+    <string name="LEVEL_">NIVEL:</string>
+    <string name="menu_pausa">Menú Pausa</string>
+    <string name="quieres_salir">¿Quieres salir del juego?</string>
+    <string name="reanudar">Reanudar</string>
+    <string name="seguro">¿Estás seguro?</string>
+    <string name="no_se_guarda">No se guardará la partida</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="velocidad_">Velocidad:</string>
+    <string name="level_">Nivel:</string>
+    <string name="_score">Puntuación:</string>
+    <string name="lives_">Vidas:</string>
+    <string name="lose">¡Has perdido! Tu puntuación fue: </string>
+    <string name="has_comido">Has comido </string>
+    <string name="manzanas"> manzanas</string>
+    <string name="cargando">Cargando...</string>
+    <string name="email_username">Email/Username</string>
+
+</resources>

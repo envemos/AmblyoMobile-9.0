@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Amblyo Mobile</string>
+    <string name="salir">出口</string>
+    <string name="opciones">选项</string>
+    <string name="sesi_n">Sesion</string>
+    <string name="jugar">玩</string>
+    <string name="configuraci_n">组态</string>
+    <string name="reglas">规则</string>
+    <string name="title_activity_settings">选项</string>
+
+    <string name="error_field_required">这是必填栏</string>
+    <string name="error_invalid_email">此电子邮件地址无效</string>
+
+    <string name="ojo_izquierdo">左眼</string>
+    <string name="ojo_derecho">右眼</string>
+    <string name="ojo_vago">懒惰的眼睛</string>
+    <string name="color_de_fondo">背景颜色</string>
+    <string name="activar_sonido">激活声音</string>
+    <string name="velocidad">速度</string>
+    <string name="autoincrementar_velocidad">自动增加速度</string>
+    <string name="muros">穆罗斯</string>
+
+    <string-array name="colors">
+        <item>红</item>
+        <item>蓝</item>
+        <item>黄</item>
+        <item>青色</item>
+        <item>品红</item>
+        <item>绿</item>
+        <item>个性化</item>
+    </string-array>
+
+    <string-array name="ojo_selec">
+        <item>左</item>
+        <item>权</item>
+    </string-array>
+
+    <string-array name="blanco_negro">
+        <item>白</item>
+        <item>黑</item>
+    </string-array>
+
+    <string name="snake">蛇</string>
+    <string name="snakeR">蛇是一个游戏，你必须尽可能多地吃苹果。随着它吃的每个苹果蛇的长度增加，这增加了难度。速度越高，得分越高。在配置菜单中选择速度。如果您在配置菜单中激活自动速度，随着时间的推移，您可以提高速度。你可以玩墙（难度更高但得分更高）或没有墙。您可以在配置菜单中激活或关闭墙壁。蛇撞到墙上或与自身碰撞时死亡。通过在所需的方向上滑动屏幕来移动蛇：向上，向下，向右或向左。</string>
+    <string name="tetris">俄罗斯方块</string>
+    <string name="tetrisR">通过拟合板上的几何图形来获得积分，以便完全填充板的一排。然后一条线将被清空，您将获得积分。你可以同时清空几行，这会给你更多的分数。当你身材合适时，另一个数字将自动出现在棋盘的顶部。游戏结束时，董事会溢出，也就是说，你已经消耗了所有的行。等级越高，速度越高，得分越高。在配置菜单中选择级别。如果在配置菜单中激活自动速度，则可以在填充行时增加级别。通过在屏幕上向右或向左滑动手指来移动图形。向上轻扫或按屏幕旋转图形。向下滑动以加速坠落（当您确定要放置它的位置时）。</string>
+    <string name="flappy">飞扬</string>
+    <string name="flappyR">尝试通过穿过障碍物的彩球尽可能长时间地存活，而不会击中或离开屏幕。球会移动得越来越快。球将通过重力自动下降。你必须跳起来举起球。按屏幕跳转。</string>
+    <string name="volver_atr_s">返回到游戏菜单</string>
+    <string name="mejores_puntuaciones">最高分</string>
+    <string name="time">时间:</string>
+    <string name="level">水平:</string>
+    <string name="score">比分:</string>
+    <string name="mi_historial">我的历史</string>
+    <string name="nivel">水平</string>
+    <string name="volver_al_men">返回主菜单</string>
+    <string name="guardar_cambios">保存更改</string>
+    <string name="volver_atr_as">回去吧</string>
+
+    <string name="username">用户名</string>
+
+    <string name="iniciar_sesi_n">开始会议</string>
+    <string name="update">更新</string>
+    <string name="mi_cuenta">我的帐户</string>
+    <string name="mi_cuenta_google">谷歌帐户</string>
+    <string name="code_breaker">破解代码</string>
+    <string name="breaker">Breaker</string>
+    <string name="amblyopia">Amblyopia</string>
+    <string name="mobile">MOBILE</string>
+    <string name="games"><u>游戏</u></string>
+    <string name="comprar_gafas">买眼镜</string>
+    <string name="www_amblyopiaonlinegames_com">www.amblyopiaonlinegames.com</string>
+    <string name="m_s_informaci_n_en">更多信息:</string>
+    <string name="breakeR">我们必须用球击出面板上的所有块，我们必须使用移动平台。您可以将平台向右或向左移动，同时按住屏幕的相应一侧。球持续运动。当碰到移动平台或挡块时，球会弹跳。当被一个街区命中时，它会消失，我们可以获得积分。当所有的街区消失后，我们就会升级并获得生命。水平越高，得分越高，球速越快。每次球在板的底部反弹，我们都会失去生命。当我们失去所有生命时，游戏就结束了。您可以在配置菜单中配置初始级别。</string>
+    <string name="resultados_">结果)</string>
+    <string name="nombre">名: </string>
+    <string name="juego">游戏</string>
+    <string name="fecha">日期</string>
+    <string name="puntuacion">比分</string>
+    <string name="comidos_">吃:</string>
+    <string name="lineas_">线:</string>
+    <string name="saltos_">跳跃:</string>
+    <string name="levels_">水平:</string>
+    <string name="tiempo">时间</string>
+    <string name="nivel_">水平:</string>
+    <string name="score_">比分:</string>
+    <string name="time_">时间:</string>
+    <string name="LEVEL_">LEVEL:</string>
+    <string name="menu_pausa">暂停菜单</string>
+    <string name="quieres_salir">你想离开游戏吗？</string>
+    <string name="reanudar">简历</string>
+    <string name="seguro">你确定吗？</string>
+    <string name="no_se_guarda">游戏不会被保存</string>
+    <string name="si">如果</string>
+    <string name="no">不</string>
+    <string name="velocidad_">速度:</string>
+    <string name="level_">水平:</string>
+    <string name="_score">比分:</string>
+    <string name="lives_">生活:</string>
+    <string name="lose">你输了！你的分数是: </string>
+    <string name="has_comido">你吃过了 </string>
+    <string name="manzanas"> 苹果</string>
+    <string name="cargando">载入中...</string>
+    <string name="email_username">Email /用户名</string>
+    <string name="pais">国家: </string>
+    <string name="genero">性别: </string>
+    <string name="fechaNacimiento">出生日期: </string>
+    <string name="mi_actividad">我的活动</string>
+    <string name="female">女</string>
+    <string name="male">男</string>
+    <string name="amblyo">AMBLYO</string>
+    <string name="camposactualizados">更新的字段</string>
+    <string name="necesitasemail">您需要一个电子邮件帐户</string>
+    <string name="bienvenido">比恩韦尼</string>
+    <string name="total">总时间: </string>
+    <string name="medio">平均每日时间: </string>
+    <string name="jugados">游戏玩了: </string>
+    <string name="enjoy">享受 Amblyopia Mobile Games?</string>
+    <string name="si_">是!</string>
+    <string name="no_">不是</string>
+    <string name="howabout">那么App Store的评分怎么样？</string>
+    <string name="si__">可以，当然</string>
+    <string name="no__">不用了，谢谢</string>
+    <string name="givingus">你介意给我们一些反馈意见吗？</string>
+    <string name="cuenta">谷歌帐户: </string>
+
+    <!-- FAQ -->
+    <string name="about">关于</string>
+    <string name="instrucciones">使用说明</string>
+    <string name="Cuenta">帐户</string>
+
+    <string name="a_faq0">什么是懒惰眼或弱视？</string>
+    <string name="a_faq1">治疗</string>
+    <string name="a_faq2">使用正确的颜色过滤图像</string>
+    <string name="a_faq3">如果我遭受斜视怎么办？</string>
+    <string name="a_faq4">游戏对成年人也有益吗？</string>
+    <string name="a_faq5">它是否由医疗机构支持？</string>
+    <string name="a_faq6">这些游戏是针对未成年人的吗？</string>
+
+    <string name="a_ans0">模糊的眼睛或弱视是发达国家儿童和青少年视力丧失的最常见原因，并影响约3％的人口。 它是由于大脑处理不充分造成的，因为其中一只眼睛与大脑没有很好的交流（可能是由于多种原因，如斜视，双眼之间的分度差异，屈光参差，aniseiconía，先天性白内障）未达到最佳视力 ，也没有使用最好的光学校正。 这导致较弱的眼睛被强壮的眼睛抑制。 懒惰的人没有发达的深度感。 在儿童期（7或8年之前）纠正这种视觉缺陷是非常重要的，因为如果通过，患者可以完全丧失不使用的眼睛的视力。</string>
+    <string name="a_ans1">弱视的治疗方法是强迫懒惰的眼睛使用。 最受欢迎的是孩子每天佩戴“好”眼罩数小时，持续数周或数月。 一旦童年结束，就没有什么事情可以解决缺乏大脑可塑性的问题。然而，已经发现，在成人弱视治疗中，游戏是有效的，也被称为“懒惰的眼睛”。 根据最新研究。\n游戏信息由双眼共享，迫使他们合作。\n当双眼合作时，弱视大脑可以通过增加大脑可塑性水平而重新学习。 仅两周后，双眼玩耍的患者对弱视力的视力有显着改善。</string>
+    <string name="a_ans2">这些游戏可以帮助你。 通过正确的设置，应用程序可以强制大脑同时使用双眼来教大脑正确的图像处理。 图像的每个部分仅通过两只眼睛中的一只进行过滤，这是通过戴上立体眼镜过滤颜色来实现的。始终确保只有一只眼睛可以看到左或右的颜色。 游戏要求将信息发送给双方合作。</string>
+    <string name="a_ans3">如果您患有斜视，那么您不能使用这种治疗，因为您可能会出现双视障问题（复视）。 但是，任何人都可以在没有立体眼镜的情况下玩游戏，只是为了好玩。 您将在“条款和条件”中找到所有信息。</string>
+    <string name="a_ans4">是的，已经发现，即使对于成年人来说，这些游戏也是一种有效的锻炼方式，因为它们基于眼睛的团队合作并迫使他们一起工作。 事实上，它是专为患有弱视的成年人设计的。 因为传统医学只能在8岁之前使用贴片进行早期治疗，并且在该年龄之后被认为是不可能或非常复杂的。 这是一种治疗成人弱视的另一种方法，可以鼓励他们进行实验。</string>
+    <string name="a_ans5">事实并非如此 它是一种替代疗法，不受专业人士的支持，但可提供良好的效果。 首先，你必须去找专业人士并遵循他们的指示，我们不会替代任何人的工作。 所有这些都在“条款和条件”中规定。</string>
+    <string name="a_ans6">是的，当然。 游戏适用于所有观众的游戏玩法和内容。 如果您是未成年人，您必须在成年人的监督下。 所有这些都在“条款和条件”中规定。</string>
+
+    <string name="b_faq0">我从哪里开始？</string>
+    <string name="b_faq1">我可以用什么样的3D眼镜玩？</string>
+    <string name="b_faq2">如果我愿意，可以更换侧面滤色镜吗？</string>
+    <string name="b_faq3">我有正常的处方眼镜，我该怎么办？</string>
+    <string name="b_faq4">我应该玩多久游戏？</string>
+    <string name="b_faq5">我应该玩多久才能看到结果？</string>
+    <string name="b_faq6">我的眼镜不会在每只眼睛中完全过滤</string>
+    <string name="b_faq7">我发现了一个错误或其他未解决的疑问; 或改善体验的想法</string>
+
+    <string name="b_ans0">首先转到主菜单或游戏菜单的坚果图标。 拿你要使用的有色眼镜。 戴上眼镜，选择与每只眼睛对应的颜色。 如果您愿意，可以在“自定义”选项中选择六种默认颜色或自定义颜色。 然后你必须选择你的模糊眼睛（右或左）选择懒惰眼睛的那一面。 最后，您可以选择激活或停用游戏中的声音。 随意进行所需的所有设置。 如果你愿意，甚至可以改变“Ojo vago”的一面。 点击游戏手柄图标进入游戏菜单，选择您想要的游戏并开始游戏。</string>
+    <string name="b_ans1">该游戏适用于任何类型的立体3D眼镜。</string>
+    <string name="b_ans2">如果你愿意，你可以改变“眼睛模糊”的一面。 “懒眼”的配置是这样设计的，你可以用模糊的眼睛看到我们认为是“关注中心”的对象，以及健康的眼睛，图像的其余部分。 例如，在Snake中，模糊的眼睛会看到我们关注的苹果。 在俄罗斯方块我们正在移动的数字。 但是你可以在玩了大约两周之后进行测试，看看它是怎么回事。</string>
+    <string name="b_ans3">你必须使用3D立体眼镜（如果你有处方眼镜，那么你应该戴上3D眼镜）。</string>
+    <string name="b_ans4">建议的每日时间可以从最少10–20分钟到每天最多45–60分钟。 如果您感觉更舒服，可以将其分为2个或更多个10–20分钟的会话。 最重要的是能够在锻炼时专注于时间框架，所以如果你累了一点休息并且稍后继续，或者有时候，你可以跳过一天让你的大脑有足够的时间来适应新的条目。</string>
+    <string name="b_ans5">开始时，我建议每天10至20分钟，持续两周，以评估治疗的有效性。 之后，如果它说服了你，如果你注意到改进，你可以增加每日时间。</string>
+    <string name="b_ans6">如果在阅读说明后无法配置颜色，则可能是低对比度3D眼镜。 更高对比度（更暗）的镜头更容易配置，因此颜色是不可见的，对于低对比度眼镜，您必须选择非常明亮的颜色来实现这一点。 这就是为什么高对比度或更暗的镜头更适合游戏的原因。 您还可以尝试在配置选项“自定义”中自定义颜色选择中的颜色。 如果它仍然不起作用，建议使用其他眼镜。</string>
+    <string name="b_ans7">如果您有任何疑问，在商店商店页面上留下评论您关注的评论。 在我们收到联系电子邮件之前，我们已经看到大多数人更愿意通过Play商店商店页面的评论进行沟通。 考虑到先前评论的问题和答案可能有用，我们已决定以这种方式进行联系。 您可以通过单击文本气泡的浮动图标直接访问。 要清晰简洁。</string>
+
+    <string name="c_faq0">你为什么需要我的账户？</string>
+    <string name="c_faq1">如何更改个人资料数据？</string>
+    <string name="c_faq2">我怎么能看到我的活动？</string>
+    <string name="c_faq3">如何关闭会话？</string>
+    <string name="c_faq4">我可以随时删除我的帐户吗？</string>
+    <string name="c_ans0">使用已注册的帐户，您将拥有个性化的个人资料，并可通过您帐户访问的任何设备访问所有游戏历史记录。 您还可以访问最佳品牌并查看进度，以及如何与社区分享最佳品牌。 这就是我们如何鼓励自己多一点！</string>
+    <string name="c_ans1">在主菜单中的人员图标中，您可以编辑个人资料信息。</string>
+    <string name="c_ans2">在时钟图标上。 在里面你会看到几个一般统计数据。 您可以单击“我的历史记录”按钮查看您的所有游戏历史记录。</string>
+    <string name="c_ans3">按主菜单上的关闭按钮退出。</string>
+    <string name="c_ans4">当然，是的。 您可以随时要求取消该帐户。</string>
+
+    <string name="TyC"><u>条款和条件</u></string>
+    <string name="TyC_content"><b>条款和条件</b>\n\n使用该服务即表示您接受条款和条件。请在使用AmblyoMobile之前仔细阅读。您有责任同意或不同意这些条款。
+
+    \n这些条款无一例外地适用于该应用程序的所有访问者和用户。因此，如果您不同意这些条款，请不要使用。\n.
+
+    \nEnvemos软件应用程序的AmblyoMobile所有权适用所有条款和本文规定的条件，并保留随时更改此政策条款和条件的条款。\n
+
+    \n目前没有任何医疗机构支持。您必须知道您没有使用医疗服务。只有你才能恢复你的健康责任和关心。在使用本服务之前，如果您需要，请咨询专业人士。对于因使用本产品而导致的任何损坏或伤害，我们概不负责。只有用户才能了解如何使用它以及如何使用它。如果你遭受严重的健康问题的任何应立即呼叫紧急服务或者和你的健康中心。如果你有眼睛问题Ø貂，首先你必须访问眼科医生，视光师或专业OCULISTA后续指导方针。\n
+
+    \n该应用专注于通过使用立体眼镜的游戏来替代弱视治疗。但是，如果你想要的只是玩游戏，你不需要立体眼镜。因此，任何人都可以在没有浮雕眼镜的情况下玩，没有任何问题，无论他们是否有视觉问题
+
+    \n在与立体眼镜玩的情况下，他们可能只做人没有视觉问题或功能性弱视，屈光参差结果（两个眼睛之间的视力显著差异）或斜视和纠正的人。\n
+
+    \n相比之下，患有未矫正斜视的人可能会面临双重视力问题（复视）。在这种情况下，请勿在斜视未校正的情况下使用立体眼镜。\n
+
+    \n我们再次强调它。视觉治疗无法治愈策略。如果您患有斜视，请勿使用我们的治疗方法。首先，你必须纠正你的斜视。\n
+
+    \n如果申请的使用者是未成年人，则必须在负责其健康和护理的成年人或监护人的监督下进行。一切都是孩子在这个空间里所做的事情的责任，包括可能造成的所有损害。否则，即使他/她不知道该页面的相同存在，所有者也对孩子的无人监督使用负责。\n
+
+    \n游戏适用于所有观众的游戏玩法和内容，AmblyoMobile负责这项游戏。如果用户认为不遵守此规定，他有权通过联系电子邮件联系该事件。\n
+
+    \n在有任何疑问，疑问或问题之前。首先阅读常见问题部分。如果尚未解决，请写入联系电子邮件。\n
+
+    \n联系电子邮件是envemos@gmail.com。\n
+
+    </string>
+
+    <string name="PP"><u>隐私政策</u></string>
+
+    <!--string name="privacidad"><b>隐私政策</b>\n\n本隐私政策规定了AmblyoMobile在使用应用程序时使用和保护其用户提供的信息的条款。该公司致力于保护用户数据的安全。当我们要求您填写可以识别的个人信息字段时，我们会确保仅按照本文档的条款使用。但是，本隐私政策可能会随着时间的推移而发生变化或根据我们的建议进行更新，我们强烈建议您不断查看此页面，以确保您同意此类更改。\n
+
+    \n收集的信息:\n
+
+    -我们会收集您的电子邮件地址，用户名，出生日期，居住国家和性别。\n
+
+    \n使用收集的信息:\ n
+
+    -此信息将由第三方API使用，例如分析工具和自动邮件服务。
+
+    我们使用这些信息以提供最佳服务，尤其是维护用户注册表并改进我们的产品和服务。您可以通过定期与我们的新闻页面和其他信息的网站，可能是第三个被发送的邮件，我们考虑与你有关的，或可提供一些好处，这些电子邮件将被发送到地址您提供并可能随时取消。\n
+
+    \nAmblyoMobile致力于履行保护您信息安全的承诺。我们确保没有未经授权的访问。\n
+
+    \n在时事通讯中注册\n
+
+    -接受在邮件列表中注册，您将收到有关应用程序或Envemos软件服务的信息，如果您愿意，您可以随时通过任何电子邮件点击选项取消订阅。 “从这个名单中删除。”\n
+    
+    \n\n链接致第三方:\n
+
+    -此移动应用程序可能包含您可能感兴趣的其他站点的链接。 一旦您访问这些链接并放弃我们的应用程序，我们就无法控制您重定向到的网站，因此我们不对这些其他第三方网站中的条款或隐私或数据保护负责。 这些网站受其自己的隐私政策约束，因此建议您检查这些网站以确认您同意这些网站。\n
+
+    \n控制您的个人信息:\n
+
+    -未经您的同意，本公司不会出售，转让或分发收集的个人信息，除非法官要求法院命令。
+
+    \nAmblyoMobile保留随时更改本隐私政策条款的权利。\n
+    </string-->
+
+    <string name="copyright">版权所有©%1$d Envemos</string>
+    <string name="reservados">，保留所有权利。</string>
+    <string name="FAQ">常见问题</string>
+
+    <string name="space">太空侵略者</string>
+    <string name="spaceR">令人兴奋的太空入侵者娱乐活动，我们将不得不面对一大群外星入侵者。 通过单击屏幕上显示的相应箭头向左或向右滚动。 要拍摄，您只需点击屏幕的剩余区域即可。 如果你接触到过敏原，就可以消除它。 如果你杀死所有外星人，你的等级会增加。 在每个级别中，激增将更加困难并且得分越高。 你的生命有限。 对于你的船已到达的每个敌人的子弹，你都会失去生命。 如果你失去了所有的生命，游戏就结束了。 当你通过关卡时，你会获得生命。 如果allieliel船只到达屏幕的底端，游戏也会结束。 在初始级别，你有一个路障来保护你免受攻击。</string>
+    <string name ="oleadas">波</string>
+    <string name ="dificultad">难度</string>
+    <string name ="premium">额外费用</string>
+    <string name ="pong">Pong</string>
+    <string name ="pinball">弹球</string>
+    <string name ="pacman">吃豆人</string>
+
+    <string name ="mode_ready">触摸播放</string>
+    <string name ="mode_pause">已暂停</string>
+    <string name ="mode_win">干得好 :-)</string>
+    <string name ="mode_lose">抱歉 :-(</string>
+    <string name ="menu_new_game">新游戏</string>
+    <string name ="menu_exit">退出</string>
+    <string name ="menu_resume">恢复</string>
+    <string name ="default_score"> 0 0 </string>
+    <string name ="pongR">乒乓球是一种经典，不会让任何人失望。在这个版本的游戏中，尝试在得分为5分之前为对手得分尽可能高。只需用手指移动玩家的垫子并与对手竞争。</string>
+
+    <string name ="pacmanR"> 吃豆子，我们的英雄，在地图上咀嚼着，吃着所有的东西
+        点。然而，对于我们年轻的小英雄来说，生活并不容易。在他的旅途中，他面对着
+        那些试图伤害他的幽灵鬼。避免他们！在地图的每个角落，都有一个
+        动力颗粒。如果吃豆子吃了一粒粉末，他会暂时获得吃敌人的力量
+        鬼。
+
+        CONTROLS
+        向上：向上滑动\ nDown：向下滑动\ n左侧：向左滑动\ n右：向右滑动\ n
+        “暂停：保持屏幕”
+    </string>
+
+    <string name ="dialog_title">你已经超过了时间限制</string>
+    <!--string name ="dialog_text">免费版每天超过10分钟。您可以等待第二天或继续玩最好的弱视游戏！</string-->
+    <string name="dialog_text">免费版每天超过10分钟。 您可以在观看视频之前或继续播放无限制的最佳弱视游戏！\n<strike>49,99</strike>\n<b>19,99</b></string>
+    <string name="dialog_text2">免费版每天超过10分钟。 您可以在观看视频之前或继续播放无限制的最佳弱视游戏！\n<strike>49,99</strike>\n<b>9,99</b></string>
+    <string name="dialog_text3">免费版每天超过10分钟。 您可以在观看视频之前或继续播放无限制的最佳弱视游戏！\n<strike>49,99</strike>\n<b>4,99</b></string>
+    <string name="dialog_text4">免费版每天超过10分钟。 您可以在观看视频之前或继续播放无限制的最佳弱视游戏！\n<strike>49,99</strike>\n<b>2,49</b></string>
+    <!--string name ="play_demo">我会等第二天:(</string-->
+    <string name="play_demo">观看视频！</string>
+    <!--string name ="buy">我想玩:)</string-->
+    <string name="buy">没有限制:)</string>
+    <string name="normal">师范大学</string>
+    <string name="imposible">IMPOSSIBLE</string>
+    <string name="acepto">我接受</string>
+    <string name="licenciasSoftLibr"><u>自由软件许可</u></string>
+
+    <string name="ncesita_entrenar">懒惰的眼睛需要训练</string>
+    <string name="set_reminder">设置提醒</string>
+    <string name="remind_me">提醒我</string>
+    <string name="set_reminder_time">设置提醒时间</string>
+    <string name="daily_time_instruction">您可以通过设置应用程序的每日时间限制来为应用程序计算时间，以便在超出应用程序后通知您。计数器每天重启。这样你就不必为自己计划日常训练，我们会为你做到！我们建议每天使用20–40分钟，每周约3–4次。</string>
+    <string name="tiempo_diario">每日时间</string>
+    <string name="minutos">分钟</string>
+    <string name="don_t_show_this_message_again">不要再显示此消息</string>
+    <string name="remind_me_description">我们会每天向您发送通知，这样您就不会忘记您的训练日程。你不必记住，我们会为你做的！我们建议每天使用20–40分钟，每周约3–4次</string>
+    <string name="objetivo_cumplido">目标实现了！</string>
+    <string name="enhorabuena_finalizado">!!恭喜！您的期刊培训已经结束。明天回来或继续玩乐:)</string>
+    <string name="no_internet">没有网络连接。请检查互联网连接</string>
+    <string name="_privacidad">隐私</string>
+    <string name="emailist1">营销信息的授权</string>
+    <string name="emailist2">允许我们发送有关您的眼睛健康的激励信息和有趣信息，以及与我们的应用程序功能相关的所有新闻</string>
+    <string name="emailist3">根据您的活动进行营销</string>
+    <string name="emailist4">您的视力健康是我们的首要任务如果您授权我们，我们将向您展示并发送给您的广告将基于您的生活方式以及您在其他平台上展示的偏好。 （修改可能需要一段时间才能生效。）</string>
+    <string name="hora_de_jugar">是时候玩了！</string>
+    <string name="titulo_estrabismo">如果您患有斜视，请阅读此内容</string>
+    <string name="aviso_estrabismo">已经有几个人问过我们这个应用是否可以用来治疗斜视。由于您（以及我们的）对此问题所关注的疑虑的关注，如果您患有斜视，请在使用该应用程序之前阅读此内容。
+
+    \n\n此应用程序旨在略微治疗弱视，也就是说，它们是让您在成人中继续锻炼懒惰眼睛的练习，能够稍微纠正问题。但我们从健康的眼睛和懒惰的眼睛开始。作为斜视的问题（在许多情况下由于两只眼睛之一的视力丧失而引发弱视问题），眼睛的偏差太明显，并且在这种情况下它可能是有害的。因为这个应用程序是实验性治疗的一部分，如果我们不能保证100％的任何不良反应，我们不能也没有权利向斜视患者推荐它。
+
+    \n\n如果您患有非常轻微的斜视，您可以通过尝试几周来评估自己。但请咨询配镜专业人士以获得更好的建议。
+
+    \n\n如果将来我们了解更多信息，我们会及时通知您。
+
+    \n\n最好的问候。</string>
+    <string name="nota">注意：游戏中出现的颜色不一定与设置中选择的颜色一致，但是与背景颜色一起获得的颜色将获得每个镜头上最高的滤镜。</string>
+    <string name="conect">与我们联系</string>
+    <string name="page1_title">指南首页</string>
+    <string name="page2_title">什么是Amblyo Mobile？</string>
+    <string name="page3_title">如何使用Amblyo Mobile？</string>
+    <string name="page4_title">如何正确设置颜色</string>
+    <string name="page5_title">使用政策</string>
+    <string name="mensaje_bienvenida">欢迎使用Amblyo Mobile，这是您的新应用程序，旨在在玩耍时治愈弱视。 我们已经将指南上载到了网络上，因此您可以详细了解该应用程序，了解其操作以及如何使用它。 我们建议您阅读所有页面，以便毫无疑问。 在您解决所有问题之前，请勿使用Amblyo Mobile。 如有任何疑问，请随时与我们联系。 我们希望您喜欢我们开发的应用程序！ 拥抱 ;）</string>
+    <string name="guia">Amblyo移动指南</string>
+    <string name="page1">https://amblyomobile.app/zh/%e6%b2%bb%e6%84%88%e5%bc%b1%e8%a7%86/%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98%e8%a7%a3%e7%ad%94%e5%92%8c%e6%8c%87%e5%8d%97%e9%a1%b5%e9%9d%a2/</string>
+    <string name="page2">https://amblyomobile.app/zh/%e6%b2%bb%e6%84%88%e5%bc%b1%e8%a7%86/%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98%e8%a7%a3%e7%ad%94%e5%92%8c%e6%8c%87%e5%8d%97%e9%a1%b5%e9%9d%a2/%e4%bb%80%e4%b9%88%e6%98%afamblyo-mobile%ef%bc%9f/</string>
+    <string name="page3">https://amblyomobile.app/zh/%e6%b2%bb%e6%84%88%e5%bc%b1%e8%a7%86/%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98%e8%a7%a3%e7%ad%94%e5%92%8c%e6%8c%87%e5%8d%97%e9%a1%b5%e9%9d%a2/%e5%a6%82%e4%bd%95%e4%bd%bf%e7%94%a8amblyo-mobile%ef%bc%9f/</string>
+    <string name="page4">https://amblyomobile.app/zh/%e6%b2%bb%e6%84%88%e5%bc%b1%e8%a7%86/%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98%e8%a7%a3%e7%ad%94%e5%92%8c%e6%8c%87%e5%8d%97%e9%a1%b5%e9%9d%a2/%e5%a6%82%e4%bd%95%e4%b8%ad%e6%ad%a3%e7%a1%ae%e8%ae%be%e7%bd%ae%e9%a2%9c%e8%89%b2/</string>
+    <string name="page5">https://amblyomobile.app/zh/%e6%b2%bb%e6%84%88%e5%bc%b1%e8%a7%86/%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98%e8%a7%a3%e7%ad%94%e5%92%8c%e6%8c%87%e5%8d%97%e9%a1%b5%e9%9d%a2/amblyo-mobile%e6%b3%95%e5%be%8b%e6%9d%a1%e6%ac%be%e5%92%8c%e4%bd%bf%e7%94%a8%e6%94%bf%e7%ad%96/</string>
+    <string name="envemos">https://envemos.com/zh/%e5%bc%95%e5%8f%91/</string>
+    <string name="amblyom">https://amblyomobile.app/zh/%e6%b2%bb%e6%84%88%e5%bc%b1%e8%a7%86/</string>
+
+    <string name="titulo_sesion">届会</string>
+    <string name="titulo_informacion">关于申请</string>
+    <string name="titulo_configuracion">设定</string>
+    <string name="titulo_actividad">活动活动</string>
+    <string name="titulo_alarma">每日秒表</string>
+    <string name="titulo_recordatorio">每周提醒</string>
+    <string name="aviso_sesion">会话菜单 从此处登录并更新您的个人资料信息。 因此，您可以将游戏保存在云中，并通过同一帐户从任何设备同步它们。</string>
+    <string name="aviso_informacion">有关应用程序的所有信息。 在线指南和联系方式。</string>
+    <string name="aviso_configuracion">设定选单 设置颜色，懒惰的眼睛侧面，背景颜色和声音。</string>
+    <string name="aviso_actividad">您的活动日志。 一般统计数据和游戏历史日历。 由于数据已链接到从帐户上传到云的游戏，因此必须登录。</string>
+    <string name="aviso_alarma">安排每天要播放的时间（以分钟为单位）。 完成时间后，程序将通知您。 计数器每天重置。</string>
+    <string name="aviso_recordatorio">选择您希望应用程序在一周中的几天通知您，以免忘记您的培训。</string>
+
+    <string name="menu_guardar">保存游戏</string>
+    <string name="quieres_guardar">您想将游戏保存到云中吗？ 登录并检查您的所有游戏历史记录。</string>
+    <string name="guardar">保存到</string>
+</resources>

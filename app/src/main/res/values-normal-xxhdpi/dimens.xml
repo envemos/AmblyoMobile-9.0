@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- padding -->
+    <dimen name="padding0">8dp</dimen>
+    <dimen name="padding1">16dp</dimen>
+    <dimen name="padding2">32dp</dimen>
+
+    <!-- margin -->
+    <dimen name="margin1">8dp</dimen>
+    <dimen name="margin2">16dp</dimen>
+    <dimen name="margin3">32dp</dimen>
+
+    <!-- accountSelector -->
+    <dimen name="amblyoMobileTitle">60sp</dimen>
+    <dimen name="buttonloginwidth">300dp</dimen>
+    <dimen name="buttonloginheight">40dp</dimen>
+
+    <!-- activityGame -->
+    <dimen name="GamesTitleGame">70sp</dimen>
+
+    <!-- activityMenuJuegos -->
+    <dimen name="GamesTitle">60sp</dimen>
+    <dimen name="BotonJuegoDimen">150dp</dimen>
+    <dimen name="BotonJuegoText">30sp</dimen>
+    <dimen name="BotonJuegoMargin">2dp</dimen>
+
+    <!-- menuConfiguracionJuego -->
+    <dimen name="ConfigFontText">40sp</dimen>
+    <dimen name="ConfigButtonDimen">80dp</dimen>
+    <dimen name="ConfigCheckBox">30sp</dimen>
+
+    <!-- activityMain -->
+    <dimen name="MainTitle">55sp</dimen>
+    <dimen name="WelcomeDimen">20sp</dimen>
+    <dimen name="ButtonPlayDimen">60sp</dimen>
+
+    <!-- menuConfiguracionMain -->
+    <dimen name="SettingsFontText">30sp</dimen>
+    <dimen name="SettingsCheckBox">25sp</dimen>
+
+    <!-- menuActividad -->
+    <dimen name="ActividadTitleFontText">50sp</dimen>
+    <dimen name="ActividadFontText">40sp</dimen>
+    <dimen name="ActividadButtonText">30sp</dimen>
+
+    <!-- menuSesion -->
+    <dimen name="SesionTitleFontText">50sp</dimen>
+    <dimen name="SesionFontText">20sp</dimen>
+    <dimen name="SesionButtonText">25sp</dimen>
+
+    <!-- reglas -->
+    <dimen name="ReglasTitle">60sp</dimen>
+    <dimen name="ReglasText">20sp</dimen>
+
+    <!-- table -->
+    <dimen name="Table_font_size_medium">30sp</dimen>
+    <dimen name="Table_font_size_small">20sp</dimen>
+    <dimen name="Table_font_size_verysmall">20sp</dimen>
+</resources>

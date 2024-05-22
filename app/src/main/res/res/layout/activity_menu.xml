@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:grid="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        grid:columnCount="2"
+        grid:rowCount="2"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Snake"
+            android:text="@string/snake"
+            grid:layout_column="0"
+            grid:layout_columnWeight="1"
+            grid:layout_gravity="fill"
+            grid:layout_row="0"
+            grid:layout_rowWeight="1"
+            android:textSize="@dimen/font_game_name"
+            android:background="@color/colorAzul"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/archivo_black"
+            android:layout_margin="1sp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tetris"
+            android:onClick="Tetris"
+            grid:layout_column="1"
+            grid:layout_columnWeight="1"
+            grid:layout_gravity="fill"
+            grid:layout_row="0"
+            grid:layout_rowWeight="1"
+            android:textSize="@dimen/font_game_name"
+            android:background="@color/colorVerde"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/archivo_black"
+            android:layout_margin="1sp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/flappy"
+            android:onClick="Flappy"
+            grid:layout_column="0"
+            grid:layout_columnWeight="1"
+            grid:layout_gravity="fill"
+            grid:layout_row="1"
+            grid:layout_rowWeight="1"
+            android:textSize="@dimen/font_game_name"
+            android:background="@color/colorVerde"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/archivo_black"
+            android:layout_margin="1sp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/breaker"
+            android:onClick="Breaker"
+            grid:layout_column="1"
+            grid:layout_columnWeight="1"
+            grid:layout_gravity="fill"
+            grid:layout_row="1"
+            grid:layout_rowWeight="1"
+            android:textSize="@dimen/font_game_name"
+            android:background="@color/colorAzul"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/archivo_black"
+            android:layout_margin="1sp"/>
+
+
+    </android.support.v7.widget.GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+    </LinearLayout>
+
+    <Button
+        android:textSize="@dimen/font_size_medium"
+        android:background="@color/colorRojo"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/anton"
+        android:id="@+id/buttonVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/volver_al_men"
+        android:onClick="finish"/>
+
+</LinearLayout>

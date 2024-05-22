@@ -1,0 +1,93 @@
+package soft.evm.amblyopiamobilegames.juegos.space.game;
+
+import android.graphics.RectF;
+
+import static soft.evm.amblyopiamobilegames.juegos.space.game.SpaceInvadersView.screenX;
+
+public class Bullet {
+
+    private float x;
+    private float y;
+
+    private RectF rect;
+
+    // Which way is it shooting
+    public int UP = 0;
+    public int DOWN = 1;
+
+    // Going nowhere
+    int heading = -1;
+    float speed =  350;
+
+    private int width = 8;
+
+    public int getWidth() {
+        return width;
+    }
+
+    private int height;
+
+    private boolean isActive;
+
+    public Bullet(int screenY) {
+
+        height = screenY / 20;
+        width = screenX/180;
+        isActive = false;
+
+        rect = new RectF();
+    }
+
+    public boolean shoot(float startX, float startY, int direction) {
+        if (!isActive) {
+            x = startX;
+            y = startY;
+            heading = direction;
+            isActive = true;
+            return true;
+        }
+
+        // Bullet already active
+        return false;
+    }
+
+    public void update(long fps){
+
+        // Just move up or down
+        if(heading == UP){
+            y = y - (speed / fps)*3;
+        }else{
+            y = y + speed / fps;
+        }
+
+        // Update rect
+        rect.left = x;
+        rect.right = x + width;
+        rect.top = y;
+        rect.bottom = y + height;
+
+    }
+
+    public RectF getRect(){
+        return  rect;
+    }
+
+    public boolean getStatus(){
+        return isActive;
+    }
+
+    public void setInactive(){
+        isActive = false;
+    }
+
+    public float getImpactPointY(){
+        if (heading == DOWN){
+            return y + height;
+        }else{
+            return  y;
+        }
+
+    }
+
+
+}

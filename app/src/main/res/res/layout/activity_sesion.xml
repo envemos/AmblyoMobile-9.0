@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sesion"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/iniciar_sesi_n"
+            android:textSize="@dimen/font_size_medium"
+            android:textColor="@color/colorVerde"
+            android:fontFamily="@font/aldrich"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/editTextUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:hint="@string/email_username"
+            android:fontFamily="@font/aldrich"
+            android:textSize="@dimen/font_size_medium"/>
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:hint="@string/password"
+            android:fontFamily="@font/aldrich"
+            android:textSize="@dimen/font_size_medium"/>
+
+        <Button
+            android:id="@+id/email_sign_in_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/sign_in"
+            android:textStyle="bold"
+            android:onClick="login"
+            android:textSize="@dimen/font_size_medium"
+            android:background="@color/colorAzul"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/archivo_black"
+            />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorRojo"
+            />
+
+        <Button
+            android:id="@+id/email_regi_in_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/register"
+            android:textStyle="bold"
+            android:onClick="register"
+            android:textSize="@dimen/font_size_medium"
+            android:background="@color/colorVerde"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/archivo_black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/micuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mi_cuenta"
+            android:layout_margin="10sp"
+            android:textSize="@dimen/font_size_medium"
+            android:textColor="@color/colorVerde"
+            android:fontFamily="@font/aldrich"/>
+
+        <TextView
+            android:id="@+id/textViewNombreUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:textSize="@dimen/font_size_medium"
+            android:textColor="@color/colorAzul"
+            android:fontFamily="@font/aldrich"/>
+
+        <Button
+            android:id="@+id/buttonHistorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mi_historial"
+            android:onClick="iniciarHistorial"
+            android:textSize="@dimen/font_size_medium"
+            android:background="@color/colorVerde"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/archivo_black"
+            />
+
+        <Button
+            android:id="@+id/buttonCerrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cerrar_sesi_n"
+            android:onClick="cerrar"
+            android:textSize="@dimen/font_size_medium"
+            android:background="@color/colorAzul"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/archivo_black"/>
+
+        <Button
+            android:id="@+id/buttonBorrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/borrar_cuenta"
+            android:onClick="borrar"
+            android:textSize="@dimen/font_size_medium"
+            android:background="@color/colorRojo"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/archivo_black"/>
+
+    </LinearLayout>
+
+    <Button
+        android:textSize="@dimen/font_size_medium"
+        android:background="@color/colorRojo"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/anton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="atras"
+        android:text="@string/volver_al_men" />
+
+</RelativeLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding1"
+    android:background="@color/grisClaro"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/LayoutBannerSuperior"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bannerHeight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/bannerSuperior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:adSize="SMART_BANNER"
+            app:adUnitId="@string/admobbannercodesuperior"
+            />
+
+    </LinearLayout>
+    <View
+        android:id="@+id/lineSuperior"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/heightLineBanner"
+        android:background="@color/colorlinebanner"
+        app:layout_constraintTop_toBottomOf="@+id/LayoutBannerSuperior"
+        />
+
+    <TextView
+        android:id="@+id/textViewActivityReglasNombreJuego"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin1"
+        android:textAlignment="center"
+        android:textSize="@dimen/ReglasTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="BREAKER"
+        />
+
+    <ScrollView
+        android:id="@+id/scrollViewActivityReglareglas"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewActivityReglasNombreJuego">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewActivityReglaReglas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding1"
+                android:textSize="@dimen/ReglasText"
+                android:textAlignment="center"
+                android:text="Estas son las reglas. O las tomas o las dejas. O las aceptas o te largas. O las cumples o no juegas. Estas son las reglas. O las tomas o las dejas. O las aceptas o te largas. O las cumples o no juegas. Estas son las reglas. O las tomas o las dejas. O las aceptas o te largas. O las cumples o no juegas."
+                />
+
+            <ImageView
+                android:id="@+id/buttonActivityReglaVolver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/boton_redondeado"
+                android:contentDescription="@string/volver_atr_as"
+                android:onClick="go_back"
+                android:padding="@dimen/padding1"
+                android:src="@drawable/cancel_white"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <View
+        android:id="@+id/lineInferior"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/heightLineBanner"
+        android:background="@color/colorlinebanner"
+        app:layout_constraintBottom_toTopOf="@+id/LayoutBannerInferior"
+        android:layout_marginTop="@dimen/marginLineBanner"
+        />
+    <LinearLayout
+        android:id="@+id/LayoutBannerInferior"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bannerHeight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/bannerInferior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:adSize="SMART_BANNER"
+            app:adUnitId="@string/admobbannercodeinferior"
+            android:layout_marginTop="@dimen/marginLineBanner"
+            />
+    </LinearLayout>
+
+</LinearLayout>

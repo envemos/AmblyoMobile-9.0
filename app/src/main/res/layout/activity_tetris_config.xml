@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding1"
+    android:background="@color/grisClaro"
+    >
+
+    <LinearLayout
+        android:id="@+id/LayoutBannerSuperior"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bannerHeight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/bannerSuperior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:adSize="SMART_BANNER"
+            app:adUnitId="@string/admobbannercodesuperior"
+            />
+
+    </LinearLayout>
+    <View
+        android:id="@+id/lineSuperior"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/heightLineBanner"
+        android:background="@color/colorlinebanner"
+        app:layout_constraintTop_toBottomOf="@+id/LayoutBannerSuperior"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin1"
+        app:layout_constraintBottom_toTopOf="@+id/LayoutBannerInferior"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/LayoutBannerSuperior">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewTetrisConfigNivel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin1"
+                android:text="@string/nivel"
+                android:textAlignment="center"
+                android:textColor="@color/Negro"
+                android:textSize="@dimen/ConfigFontText" />
+
+            <SeekBar
+                android:id="@+id/seekBarTetrisConfigVelocidad"
+                style="@android:style/Widget.Material.SeekBar.Discrete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="10"
+                android:progress="3"
+                android:progressDrawable="@drawable/volume_control"
+                android:thumbTint="@color/Blanco"
+                tools:targetApi="n"
+                android:layout_margin="@dimen/margin1"
+                />
+
+            <CheckBox
+                android:id="@+id/checkBoxTetrisConfigVelocidad"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="@dimen/margin1"
+                android:onClick="onCheckboxClicked"
+                android:text="@string/autoincrementar_velocidad"
+
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textSize="@dimen/SettingsCheckBox" />
+
+            <ImageView
+                android:id="@+id/imageViewTetrisConfigGuardar"
+                android:layout_width="@dimen/ConfigButtonDimen"
+                android:layout_height="@dimen/ConfigButtonDimen"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin1"
+                android:background="@drawable/boton_redondeado"
+                android:contentDescription="@string/guardar_cambios"
+                android:onClick="finish"
+                android:padding="@dimen/padding1"
+                android:src="@drawable/save_balck"
+                android:text="@string/guardar_cambios" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <View
+        android:id="@+id/lineInferior"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/heightLineBanner"
+        android:background="@color/colorlinebanner"
+        app:layout_constraintBottom_toTopOf="@+id/LayoutBannerInferior"
+        android:layout_marginTop="@dimen/marginLineBanner"
+        />
+    <LinearLayout
+        android:id="@+id/LayoutBannerInferior"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bannerHeight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/bannerInferior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:adSize="SMART_BANNER"
+            app:adUnitId="@string/admobbannercodeinferior"
+            android:layout_marginTop="@dimen/marginLineBanner"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

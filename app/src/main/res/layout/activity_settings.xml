@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding1"
+    android:background="@color/grisClaro"
+    >
+
+    <LinearLayout
+        android:id="@+id/LayoutBannerSuperior"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bannerHeight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/bannerSuperior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:adSize="SMART_BANNER"
+            app:adUnitId="@string/admobbannercodesuperior"
+            />
+
+    </LinearLayout>
+    <View
+        android:id="@+id/lineSuperior"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/heightLineBanner"
+        android:background="@color/colorlinebanner"
+        app:layout_constraintTop_toBottomOf="@+id/LayoutBannerSuperior"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin1"
+        app:layout_constraintBottom_toTopOf="@+id/LayoutBannerInferior"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/LayoutBannerSuperior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textViewActivityANota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nota" />
+
+
+            <TextView
+                android:id="@+id/textViewActivitySettingsOjoIzquierdo"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin1"
+                android:text="@string/ojo_izquierdo"
+
+                android:textSize="@dimen/SettingsFontText" />
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin1"
+                android:background="@drawable/spiner_background"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/left_eye"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin1"
+                    android:background="@drawable/campo_redondeado_black"
+                    android:entries="@array/colors"
+                    android:padding="@dimen/padding0"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin1"
+                    android:background="@color/grisMedioClaro"
+                    android:contentDescription="@android:string/ok"
+                    android:src="@drawable/ic_dropdown_trim_grande"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/left_eye"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <TextView
+                android:id="@+id/textViewActivitySettingsOjoDerecho"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin1"
+                android:text="@string/ojo_derecho"
+
+                android:textSize="@dimen/SettingsFontText" />
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin1"
+                android:background="@drawable/spiner_background"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/right_eye"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin1"
+                    android:background="@drawable/campo_redondeado_black"
+                    android:entries="@array/colors"
+                    android:padding="@dimen/padding0"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin1"
+                    android:background="@color/grisMedioClaro"
+                    android:contentDescription="@android:string/ok"
+                    android:src="@drawable/ic_dropdown_trim_grande"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/right_eye"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textViewActivitySettingsOjoVago"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin1"
+                android:text="@string/ojo_vago"
+
+                android:textSize="@dimen/SettingsFontText" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin1"
+                android:background="@drawable/spiner_background"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/weak_eye"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin1"
+                    android:background="@drawable/campo_redondeado_black"
+                    android:entries="@array/ojo_selec"
+                    android:padding="@dimen/padding0"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin1"
+                    android:background="@color/grisMedioClaro"
+                    android:contentDescription="@android:string/ok"
+                    android:src="@drawable/ic_dropdown_trim_grande"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/weak_eye"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textViewActivitySettingsFondoColor"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin1"
+                android:text="@string/color_de_fondo"
+
+                android:textSize="@dimen/SettingsFontText" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin1"
+                android:background="@drawable/spiner_background"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/fondo_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin1"
+                    android:background="@drawable/campo_redondeado_black"
+                    android:entries="@array/blanco_negro"
+                    android:padding="@dimen/padding0"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin1"
+                    android:background="@color/grisMedioClaro"
+                    android:contentDescription="@android:string/ok"
+                    android:src="@drawable/ic_dropdown_trim_grande"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/fondo_color"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <CheckBox
+                android:id="@+id/checkBoxActivitySettingsSonido"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="@dimen/margin1"
+                android:onClick="onCheckboxClicked"
+
+                android:text="@string/activar_sonido"
+                android:textSize="@dimen/SettingsCheckBox" />
+
+            <ImageView
+                android:id="@+id/buttonActivitySettingsGuardar"
+                android:layout_width="@dimen/ConfigButtonDimen"
+                android:layout_height="@dimen/ConfigButtonDimen"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin1"
+                android:background="@drawable/boton_redondeado"
+                android:contentDescription="@string/guardar_cambios"
+                android:onClick="save"
+                android:padding="@dimen/padding1"
+                android:src="@drawable/save_white"
+                android:text="@string/guardar_cambios" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <View
+        android:id="@+id/lineInferior"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/heightLineBanner"
+        android:background="@color/colorlinebanner"
+        app:layout_constraintBottom_toTopOf="@+id/LayoutBannerInferior"
+        android:layout_marginTop="@dimen/marginLineBanner"
+        />
+    <LinearLayout
+        android:id="@+id/LayoutBannerInferior"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bannerHeight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/bannerInferior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:adSize="SMART_BANNER"
+            app:adUnitId="@string/admobbannercodeinferior"
+            android:layout_marginTop="@dimen/marginLineBanner"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Amblyo Mobile</string>
+    <string name="salir">Exit</string>
+    <string name="opciones">Options</string>
+    <string name="sesi_n">Session</string>
+    <string name="jugar">Play</string>
+    <string name="configuraci_n">Configuración</string>
+    <string name="reglas">Rules</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+
+    <string name="ojo_izquierdo">Left eye</string>
+    <string name="ojo_derecho">Right eye</string>
+    <string name="ojo_vago">Lazy eye</string>
+    <string name="color_de_fondo">Background color</string>
+    <string name="activar_sonido">Sound active</string>
+    <string name="velocidad">Speed</string>
+    <string name="autoincrementar_velocidad">Autoincrement speed</string>
+    <string name="muros">Walls</string>
+
+    <string name="snake">Snake</string>
+
+    <string name="snakeR">Snake is a game where you must eat as many apples as possible. The snake increases in length with each apple that it eats, which increases the difficulty. The higher the speed, the higher the score. Choose the speed in the configuration menu. You can increase speed as time goes by if you activate the auto-speed in the configuration menu. You can play with walls (more difficult but more score) or without walls. You can activate or deactivate the walls in the configuration menu. The snake dies when it hits the wall or with itself. Move the snake by sliding your fingers across the screen in the direction you want: up, down, right or left.</string>
+
+    <string name="tetris">Tetris</string>
+
+    <string name="tetrisR">Get points by fitting the geometric figures that fall on the board so that you can completely fill a row of the board. Then a line will be emptied and you will get points. You can empty several lines simultaneously, which will give you more points. When you fit a figure, another figure will automatically appear at the top of the board. The game ends when the board overflows, that is, you have consumed all the rows. The higher the level, the higher the speed and the higher the score. Choose the level in the configuration menu. You can increase the level as you fill in rows if you activate the auto-speed in the configuration menu. Move the figure by sliding your fingers across the screen either to the right or to the left. Swipe up or press the screen to rotate the figure. Slide down to accelerate the fall (when you\'re sure where you want to place it).</string>
+    <string name="flappy">Flappy</string>
+    <string name="flappyR">Try to survive as long as possible by crossing the colored ball through the obstacles, without hitting or leaving the screen. The ball will move more and more quickly. The ball will descend automatically by gravity. You must jump to raise the ball. Press the screen to jump.</string>
+    <string name="volver_atr_s">Get back to the game menu</string>
+    <string name="mejores_puntuaciones">Top scores</string>
+    <string name="time">Time:</string>
+    <string name="level">Level:</string>
+    <string name="score">Score:</string>
+    <string name="mi_historial">Mi history</string>
+    <string name="nivel">Level</string>
+    <string name="volver_al_men">Get back to the main menu</string>
+    <string name="guardar_cambios">Save changes</string>
+    <string name="volver_atr_as">Get back</string>
+    <string name="username">Username</string>
+    <string name="iniciar_sesi_n">Login</string>
+    <string name="update">Update</string>
+
+    <string name="mi_cuenta">Mi account</string>
+
+    <string name="mi_cuenta_google">Google account</string>
+    <string name="code_breaker">Code Breaker</string>
+    <string name="breaker">Breaker</string>
+    <string name="amblyopia">Amblyopia</string>
+    <string name="mobile">MOBILE</string>
+    <string name="games"><u>GAMES</u></string>
+    <string name="comprar_gafas">Buy glasses</string>
+    <string name="www_amblyopiaonlinegames_com">www.amblyopiaonlinegames.com</string>
+    <string name="m_s_informaci_n_en">Más información en:</string>
+    <string name="breakeR">We have to break all the blocks of the panel with the ball, which we must hit with the mobile platform. You can move the platform to the right or to the left, keeping pressing the corresponding side of the screen. The ball is in continuous movement. When hitting the mobile platform or with a block, the ball bounces. When hit with a block, it disappears and we earn points. When all the blocks disappear, we rise in level and gain a life. The higher the level, the higher the score and the faster the ball. Each time the ball bounces on the bottom of the panel, we lose a life. When we lose all lives, the game ends. You can configure the initial level in the configuration menu.</string>
+    <string name="resultados_">results)</string>
+    <string name="nombre">Name: </string>
+    <string name="juego">Game</string>
+    <string name="fecha">Day</string>
+    <string name="puntuacion">Score</string>
+    <string name="comidos_">eaten:</string>
+    <string name="lineas_">Lines:</string>
+    <string name="saltos_">Jumps:</string>
+    <string name="levels_">Levels:</string>
+    <string name="tiempo">Time</string>
+    <string name="nivel_">Level:</string>
+    <string name="score_">Score:</string>
+    <string name="time_">Time:</string>
+    <string name="LEVEL_">LEVEL:</string>
+    <string name="menu_pausa">Pause Menu</string>
+    <string name="quieres_salir">Do you want to leave the game?</string>
+    <string name="reanudar">Resume</string>
+    <string name="seguro">¿Are you sure?</string>
+    <string name="no_se_guarda">The game will not be saved</string>
+    <string name="si">Yes</string>
+    <string name="no">No</string>
+    <string name="velocidad_">Speed:</string>
+    <string name="level_">Level:</string>
+    <string name="_score">Score:</string>
+    <string name="lives_">Lives:</string>
+    <string name="lose">You lose! Your score was: </string>
+    <string name="has_comido">You have eaten </string>
+    <string name="manzanas"> apples</string>
+    <string name="cargando">Loading...</string>
+    <string name="email_username">Email/Username</string>
+    <string name="pais">Country: </string>
+    <string name="genero">Gender: </string>
+    <string name="fechaNacimiento">Birthdate: </string>
+    <string name="mi_actividad">My Activity</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="amblyo">AMBLYO</string>
+    <string name="camposactualizados">updated fields</string>
+    <string name="necesitasemail">You need an email account</string>
+    <string name="bienvenido">Welcome</string>
+    <string name="total">Total time: </string>
+    <string name="medio">Average daily time: </string>
+    <string name="jugados">Games played: </string>
+    <string name="enjoy">Enjoying Amblyopia Mobile Games?</string>
+    <string name="si_">Yes!</string>
+    <string name="no_">Not really</string>
+    <string name="howabout">How about a rating on the App Store, then?</string>
+    <string name="si__">Ok, sure</string>
+    <string name="no__">No, thanks</string>
+    <string name="givingus">Would you mind giving us some feedback?</string>
+    <string name="cuenta">Account: </string>
+    <string name="about">About</string>
+    <string name="instrucciones">Instructions for use</string>
+    <string name="Cuenta">Account</string>
+
+    <!-- FAQ -->
+    <string name="a_faq0">What is lazy eye or amblyopia?</string>
+    <string name="a_faq1">Treatment</string>
+    <string name="a_faq2">Filter the image with the correct colors</string>
+
+    <string name="a_faq3">What happens if I suffer strabismus?</string>
+    <string name="a_faq4">Are games also beneficial for adults?</string>
+    <string name="a_faq5">Is it backed by a medical authority?</string>
+    <string name="a_faq6">Are the games aimed at minors?</string>
+    <string name="a_ans0">The vague eye or amblyopia is the most frequent reason for vision loss among children and young people in developed countries and affects approximately 3\% of the population. It happens as a result of inadequate brain processing, because one of the eyes does not communicate well with the brain (it can be due to multiple causes such as strabismus, graduation differences between both eyes, anisometropia, aniseiconía, congenital cataracts) not reaching the optimal visual acuity, nor using the best optical correction. Which causes the weaker eye to be suppressed by the stronger eye. People with lazy eye do not have a developed percepcle of depth. It is very important to correct this visual defect during childhood (before 7 or 8 years), because if it is passed, the patient can completely lose the vision of the eye that does not use.</string>
+    <string name="a_ans1">The treatment for amblyopia is to force the lazy eye to use. The most popular is for the child to wear the \'good\' eye patch for several hours every day for a few weeks or months. Once childhood is over, there is nothing to do for lack of cerebral plasticity.\nHowever, it has been found that play is effective in the treatment of amblyopia in adults, also known as \'lazy eye \', of According to new research.\nGaming information is shared by both eyes, forcing them to cooperate.\nWhen both eyes cooperate, the amblyopic brain can relearn as a result of an increase in the level of plasticity in the brain. Patients who played with both eyes experienced a significant improvement in their vision of the weaker eye after only two weeks.</string>
+    <string name="a_ans2">These games can help you. With the right settings, applications can force the brain to use both eyes simultaneously to teach the brain proper image processing. Each part of the image is filtered only by one of the two eyes and this is achieved by filtering colors by putting on anaglyph glasses. Always make sure that only one of the eyes can see the left or right color. game requires that information be sent to both eyes to work cooperatively.</string>
+
+    <string name="a_ans3">If you suffer from strabismus then you can NOT use this treatment because you may develop a double vision problem (diplopia). However, anyone can play games without anaglyph glasses simply for fun. You will find all the information in the "terms and conditions".</string>
+    <string name="a_ans4">Yes, it has been discovered that these games are an effective exercise even for adults because they are based on teamwork of the eyes and force both of them to work together. In fact it is designed for adults suffering from amblyopia. Because traditional medicine only makes an early treatment until age 8 with the use of the patch, and after that age is considered impossible or very complicated. This is an alternative method for curing amblyopia for adults who feel encouraged to experiment with it.</string>
+    <string name="a_ans5">It\'s not. It is an alternative therapy that is not supported by a professional but offers good results. First of all you must go to a professional and follow their instructions, we do not substitute the work of anyone. All this is stipulated in the \"terms and conditions\".</string>
+    <string name="a_ans6">Yes of course. The games are suitable for all audiences in terms of gameplay and content. If you are a minor you must be under the supervision of an adult. All this is stipulated in the "terms and conditions".</string>
+    <string name="b_faq0">Where do I begin?</string>
+    <string name="b_faq1">What kind of 3d glasses can I use to play?</string>
+    <string name="b_faq2">Can I change the side color filter if I prefer it?</string>
+
+    <string name="b_faq3">I have normal prescription glasses, what should I do?</string>
+    <string name="b_faq4">How long should I play the game?</string>
+    <string name="b_faq5">How long should I play to see results?</string>
+    <string name="b_faq6">My glasses do not filter completely in each eye</string>
+    <string name="b_faq7">I have found an error or other unresolved doubt; or an idea to improve the experience</string>
+    <string name="b_ans0">First go to the nut icon of the main menu or the game menu. Take the colored glasses you are going to use. Put on your glasses and select the color that corresponds to each eye. You can choose between six default colors or customize yours if you wish in the option \'Customized\'. Then you must select the side where your vague eye (Right or Left) is in the selection of the lazy eye. Finally, you have the option to activate or deactivate the sound in the games. Feel free to make all the settings you want. Even change the side of the \'Ojo vago\' if you wish. Click on the gamepad icon to go to the game menu and select the game you want and start playing.</string>
+    <string name="b_ans1">The game works with any type of anaglyph 3D glasses.</string>
+    <string name="b_ans2">You can change the side of the \'Eye-vague \' if you wish. The configuration of the \'lazy eye\' is designed so that with the vague eye you see the object in question that we consider \'center of attention \' and with the healthy eye the rest of the image. For example, in the Snake the vague eye will see the apple which we focus our attention on. In the Tetris the figure that we are moving. But you can do the test after playing about two weeks to see how it goes.</string>
+
+    <string name="b_ans3">You must use a 3D anaglyph (if you have prescription glasses, then you should wear 3D glasses on it).</string>
+    <string name="b_ans4">The recommended daily time can range from a minimum of 10–20 minutes to a maximum of 45–60 minutes each day. You can divide that into 2 or more sessions of 10–20 minutes if you feel more comfortable. The most important thing is to be able to concentrate on the time frame while exercising, so if you get tired rest a bit and continue later or, sometimes, you can skip a day to give your brain enough time to adapt the new entries.</string>
+    <string name="b_ans5">At the beginning I recommend between 10 and 20 minutes per day for two weeks to evaluate the effectiveness of the treatment. Later, if it convinces you, you can increase the daily time if you notice improvements.</string>
+    <string name="b_ans6">If you have trouble configuring the colors after reading the instructions, you probably have low contrast 3D glasses. A higher contrast (darker) lenses are easier to configure so that colors are invisible, with low contrast glasses you must choose a very bright color to achieve that. This is the reason why high contrast or darker lenses fit the game better. You can also try to customize the colors in the selection of colors in the configuration option \'Customized \'. If it still does not work, it would be advisable to use other glasses.</string>
+    <string name="b_ans7">If you have any questions, leave us a review on the shop store page commenting your concern. Before we had a contact email, but we have seen that most of you have preferred to communicate through the reviews of the store page of the Play Store. Taking into account that the questions and answers from previous reviews can be useful, we have decided that the contact will be made in this way. You can access directly by clicking on the floating icon of the text bubble. Be as clear and concise.</string>
+    <string name="c_faq0">Why do you need my account?</string>
+    <string name="c_faq1">How can I change my profile data?</string>
+    <string name="c_faq2">How can I see my activity?</string>
+
+    <string name="c_faq3">How to close session?</string>
+    <string name="c_faq4">Can I delete my account at any time?</string>
+    <string name="c_ans0">With a registered account you will have a personalized profile and access to all your history of games from any device you access with your account. You will also have access to your best brands and see your progress, as well as how to share the best brands with the community. That\'s how we all encourage ourselves a little more!</string>
+    <string name="c_ans1">In the icon of the person in the main menu you can edit your profile information.</string>
+    <string name="c_ans2">On the clock icon. Inside you will see several general statistics. You can click on the "My History" button to see all your game history.</string>
+    <string name="c_ans3">Press the off button on the main menu to log out.</string>
+    <string name="c_ans4">Of course yes. At any time you can request the cancellation of the account.</string>
+    <string name="TyC"><u>Terms and Conditions.</u></string>
+    <string name="TyC_content"><b>TERMS AND CONDITIONS</b>\n\n By using the service you are accepting the terms and conditions. Please read it carefully before using AmblyoMobile. It is your responsibility to agree or disagree with these terms.\n
+
+    \nThese terms are applicable to all visitors and users of the application without exception. Therefore, if you do not agree with the terms, do not use the.\n
+
+    \nThe AmblyoMobile application owned by Envemos Software, applies all the terms and conditions set forth herein, and reserves the right to change the terms of this Terms and Conditions Policy at any time.\n
+
+    \nIT IS NOT CURRENTLY SUPPORTED BY ANY MEDICAL AUTHORITY. YOU MUST BE AWARE THAT YOU ARE NOT USING A MEDICAL SERVICE. ONLY IN YOU DO YOU RECOVER THE RESPONSIBILITY AND CARE OF YOUR HEALTH. BEFORE USING THE SERVICE, CONSULT WITH A PROFESSIONAL IF YOU SEE IT NECESSARY. IT IS NOT RESPONSIBLE FOR ANY DAMAGE OR INJURY THAT MAY RESULT FROM THE USE OF THIS. ONLY AT THE USER IS THE RESPONSIBILITY ABOUT HOW AND HOW YOU ARE GOING TO USE IT. IF YOU SUFFER ANY SERIOUS HEALTH PROBLEMS, YOU MUST CALL IMMEDIATELY THE EMERGENCY SERVICES OR GO TO YOUR CORRESPONDING HEALTH CENTER. IF YOU HAVE AN EYE OR MINK PROBLEM, YOU MUST FIRST GO TO AN OPHTHALMOLOGIST, OCULIST OR PROFESSIONAL OPTOMETRIST AND FOLLOW HIS INDICATIONS.\n
+
+    \nThis application is focused on an alternative treatment of amblyopia through games with the use of anaglyph glasses. However, you do not need anaglyph glasses if all you want is to play the games. Therefore, anyone can play without anaglyph glasses for mere fun without any problem, whether or not they have visual problems.\n
+
+    \nIn the case of playing with the anaglyph glands, it can ONLY be done by people without visual problems or people with functional amblyopia, result of anisometropia (important difference in visual acuity between both eyes) or strabismus already corrected.\n
+
+    \nIn contrast, people who suffer from uncorrected strabismus may face developing a double vision problem (diplopia). In this case, DO NOT play with anaglyph glasses while your squint is not corrected.\n
+
+    \nWe emphasize it again. Visual therapy DOES NOT WORK TO HEAL THE STRATEGY. If you suffer from strabismus DO NOT USE our therapy. First you must correct your strabismus.\n
+
+    \nIf the user of the application is a minor, it must be under the supervision of an adult or guardian responsible for their health and care. It is the responsibility of EVERYTHING in how much the child does in this space, including all the damages that may be caused. Otherwise, the owner is also responsible for the unsupervised use by the child, even if he / she did not know the same existence of this page.\n
+
+    \nThe games are suitable for all audiences in terms of gameplay and content, and AmblyoMobile is responsible for it. If the user considers that this regulation is not complied with, he has the right to contact, through the contact email, communicating the incident.\n
+
+    \nBefore any doubt, question or problem. First read the section Frequently asked questions. If this has not been resolved write to the contact email.\n
+
+    \nThe contact email is envemos@gmail.com.\n
+
+    </string>
+    <string name="PP"><u>Privacy Policy</u></string>
+
+    <string name="privacidad" translatable="false"><b>PRIVACY POLICY</b>
+
+    \n\nEnvemos Software built the Amblyo Mobile app as a Freemium app. This SERVICE is provided by Envemos Software at no cost and is intended for use as is.
+
+    \n\nThis page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
+
+    \n\nIf you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.
+
+    \n\nThe terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Amblyo Mobile unless otherwise defined in this Privacy Policy.
+
+    \n\n<u>Information Collection and Use</u>
+
+    \n\nFor a better experience, while using our Service, I may require you to provide us with certain personally identifiable information, including but not limited to email, username, birthday, country, gender. The information that I request will be retained on your device and is not collected by me in any way.
+
+    \n\nThe app does use third party services that may collect information used to identify you.
+
+    \n\nLink to privacy policy of third party service providers used by the app
+
+        \n-Google Play Services
+        \n-Firebase Analytics
+        \n-Sendinblue
+        \n-AdMob
+
+    \n\n<u>Log Data</u>
+
+    \n\nI want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.
+
+    \n\n<u>Cookies</u>
+
+    \n\nCookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device\'s internal memory.
+
+    \n\nThis Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
+
+    \n\n<u>Service Providers</u>
+
+    \n\nI may employ third-party companies and individuals due to the following reasons:
+
+        \n\nTo facilitate our Service;
+        To provide the Service on our behalf;
+        To perform Service-related services; or
+        To assist us in analyzing how our Service is used.
+
+    \n\nI want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+
+    \n\n<u>Security</u>
+
+    \n\nI value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.
+
+    \n\n<u>Links to Other Sites</u>
+
+    \n\nThis Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+
+    \n\n<u>Children’s Privacy</u>
+
+    \n\nThese Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do necessary actions.
+
+    \n\n<u>Changes to This Privacy Policy</u>
+
+    \n\nI may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.
+
+    \n\n<u>Contact Us</u>
+
+    \n\nIf you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at envemos@gmail.com.
+    </string>
+    <string name="copyright">Copyright © %1$d Envemos</string>
+
+    <string name="reservados">,All rights reserved.</string>
+
+        
+    <string name="FAQ">FAQ</string>
+
+    <string name="space">Space Invaders</string>
+    <string name="spaceR">Exciting recreation of the Space Invaders where we will have to face a great wave of alien invaders. Scroll left or right by clicking on the respective arrows that will appear on the screen. To shoot you just have to click on the remaining area of the screen. If you reach an allergen, you eliminate it. If you kill all the aliens, you increase in level. In each level the surge will be more difficult and the higher the score obtained. You have a limited number of lives. You lose a life, for every enemy bullet that your ship has reached. If you lose all your lives, the game is over. When you pass level, you gain lives. The game also ends if allieliel ships reach the bottom end of the screen. In the initial levels you have a barricade to protect you from the shots.</string>
+    <string name="oleadas">waves</string>
+
+    <string name="dificultad">difficulty</string>
+    <string name="premium">Premium</string>
+    <string name="pong">Pong</string>
+    <string name="pinball">Pinball</string>
+    <string name="pacman">Pac-Man</string>
+    <string name="mode_ready">Touch to play</string>
+    <string name="mode_pause">Paused</string>
+    <string name="mode_win">Good work :-)</string>
+
+    <string name="mode_lose">Sorry :-(</string>
+    <string name="menu_new_game">New game</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_resume">Resume</string>
+    <string name="default_score">0    0</string>
+    <string name="pongR">The pong is a classic that does not disappoint anyone. In this version of the game, try to score the highest possible score for the opponent before he scores 5 points. Simply move the player\'s pad with your finger and compete with your opponent.</string>
+    <string name="pacmanR">Pacman, our hero, munches his way around the map, eating all of the
+        dots. However, life isn\'t easy for our young little hero. Along his journey, he faces
+        spooky ghosts who will try to hurt him. Avoid them! In each corner of the map, there is a
+        power pellet. If Pacman eats a power pellet, he is temporarily gains the power to eat enemy
+        ghosts.
+
+        CONTROLS
+        Up: Swipe Up\nDown: Swipe Down\nLeft: Swipe Left\nRight: Swipe Right\n
+        "Pause: Hold Screen    "
+    </string>
+    <string name="dialog_title">You have exceeded the time limit</string>
+    <string name="dialog_text">You have exceeded 10 minutes a day of the free version. You can watch a video before or keep playing WITHOUT LIMITS with the best games for amblyopia!\n<b>19,99</b>\n<strike>49,99</strike></string>
+
+    <string name="dialog_text2">You have exceeded 10 minutes a day of the free version. You can watch a video before or keep playing WITHOUT LIMITS with the best games for amblyopia!\n<b>9,99</b>\n<strike>49,99</strike></string>
+
+    <string name="dialog_text3">You have exceeded 10 minutes a day of the free version. You can watch a video before or keep playing WITHOUT LIMITS with the best games for amblyopia!\n<b>4,99</b>\n<strike>49,99</strike></string>
+    <!--string name="dialog_text">You have exceeded 10 minutes per day of the free version. You can wait for the next day or continue playing with the best games for amblyopia!\n<strike>14.99</strike>\n<b>49.99</b></string-->
+    <string name="dialog_text4">You have exceeded 10 minutes a day of the free version. You can watch a video before or keep playing WITHOUT LIMITS with the best games for amblyopia!\n<b>2,49</b>\n<strike>49,99</strike></string>
+    <string name="play_demo">Watch video!</string>
+    <string name="buy">UNLIMITED :)</string>
+    <string name="acepto">I agree</string>
+    <!--string name="play_demo">I will wait for the next day :(</string-->
+    <string name="licenciasSoftLibr"><u>Free software license</u></string>
+    <!--string name="buy">I want to PLAY :)</string-->
+    <string name="ncesita_entrenar">Your lazy eye needs to train</string>
+    <string name="set_reminder">Set reminder</string>
+    <string name="remind_me">Remind me</string>
+
+    <string name="set_reminder_time">Set reminder time</string>
+    <string name="daily_time_instruction">You can time your workouts from the application by setting a daily time limit for the application to notify you once you have exceeded it. The counter restarts every day. That way you will not have to time yourself your daily training, we do it for you! We recommend a routine of between 20–40 minutes per day about 3–4 times per week. </string>
+    <string name="tiempo_diario">Daily Time</string>
+    <string name="minutos">minutes</string>
+    <string name="don_t_show_this_message_again">Don\'t show this message again</string>
+    <string name="remind_me_description">We will send you a notification every day so you do not forget your training routine. You will not have to remember, we\'ll do it for you! We recommend a routine of between 20–40 minutes per day about 3–4 times per week</string>
+    <string name="objetivo_cumplido">Goal fulfilled!</string>
+    <string name="enhorabuena_finalizado">!! Congratulations!! Your journal training has ended. Come back tomorrow or keep playing for fun :)</string>
+    <string name="licencias" translatable="false">
+        Amblyo Mobile is free software: you can redistribute it and/or modify
+        it under the terms of the GNU Lesser General Public License as published by
+        the Free Software Foundation, either version 3 of the License, or
+        (at your option) any later version.\n\n
+
+        Amblyo Mobile is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU Lesser General Public License for more details.\n\n
+
+        You should have received a copy of the GNU Lesser General Public License
+        along with this program. If not, see https://www.gnu.org/licenses/.\n\n
+
+        ***\n\n
+
+        Icons made by:\n
+        -Flaticon (https://www.flaticon.com/authors/google) Creative Commons BY 3.0 (http://creativecommons.org/licenses/by/3.0/)\n
+        -Icons made by Icons8 (https://icons8.com/) Standard License Agreement (https://icons8.com/download/Icons8_License.pdf)\n\n
+
+        ***\n\n
+
+        android-material-color-picker-dialog/ The MIT License (MIT)\n\n
+
+        Copyright © 2016 Simone Pessotto (http://www.simonepessotto.it)\n\n
+
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:\n\n
+
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.\n\n
+
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.\n\n
+
+        ***\n\n
+
+        Copyright 2017, Applandeo sp. z o.o.\n\n
+
+        Licensed under the Apache License, Version 2.0 (the "License");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at\n\n
+
+           http://www.apache.org/licenses/LICENSE-2.0\n\n
+
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.
+    </string>
+    <string name="about_text" translatable="false">Vector Pinball 1.6.0\n© 2010-2019 Brian Nenninger\nMore info: www.vectorpinball.com\nComments and bug reports: brian@vectorpinball.com\n\nTouch the screen to start a new game, launch a ball if one is not in play, and activate the flippers. Touch the score area to pause the game.\n\n[TABLE_RULES]\n\nSelecting the Preferences button or menu item allows you to change the following settings:\n- Sound: Enables and disables sound effects\n- Background Music: Enables and disabled background music\n- Independent Flippers: When unchecked, any touch activates both flippers. When checked, you must touch the left side of the screen for the left flipper, and the right side for the right flipper.\n- Zoom: When checked, the view will be zoomed on the ball\'s location during game play.\n- OpenGL Rendering: Uses OpenGL to draw graphics. This improves performance on many devices, but slows down some.\n- Show FPS: When checked, shows frames drawn per second in the upper left.\n\nVector Pinball is open source; the code is at https://github.com/dozingcat/Vector-Pinball\n\nThanks to Mario at www.badlogicgames.com for code improvements and libgdx.\n\nsound, music, &amp; audio code, by pdx\nTwittering Machine\nhttp://www.twittering.com</string>
+    <string name="table1_rules" translatable="false">Table Rules:\n- Light all the cyan rollovers in the top or bottom lanes to advance the score multiplier. All points you earn will be multiplied by this amount. Shooting the left ramp will also advance the multiplier.\n- The game starts with ball savers in the left and right outlanes, which disappear when used. Hit all drop targets on the left or right side to restore them.\n- Hitting any group of drop targets will activate the next light in the center of the field. When the large white central light is activated, shoot the left ramp to start multiball.</string>
+
+
+    <!-- translatable="false" -->
+    <string name="table2_rules" translatable="false">Table Rules:\n- Light all the cyan rollovers in the bottom lanes to advance the score multiplier. All points you earn will be multiplied by this amount. \n- The game starts with ball savers in the left and right outlanes, which disappear when used. Hit all drop targets on the left or right side to restore them.\n- The circles in the middle of the field keep track of how many times you\'ve hit all the left, upper, and right drop targets. When all of them have been hit at least 3 times, shoot the red bumper in the upper right to start multiball.</string>
+
+
+    <string name="table3_rules" translatable="false">Table Rules:\n- Light all the cyan rollovers in the bottom lanes to advance the score multiplier. All points you earn will be multiplied by this amount. \n- The game starts with ball savers in the left and right outlanes, which disappear when used. Hit all drop targets on the left or right side to restore them.\n- Shooting either ramp with turn the bumpers red, and they will change back to blue over several seconds. Hit them during this time for extra points.\n- Turn the middle rings red by hitting the bumpers, and the middle sets of drop targets. When all the rings are red, shoot either ramp to start multiball.</string>
+
+    <string name="table4_rules" translatable="false">Table Rules:\n- Each bumper increases the score multiplier by 0.01x. Shooting the top drop targets or lighting all the lane rollovers will increase this amount.\n- Shoot all six bumpers to light the center indicators. When all indicators for a row are lit, shoot the right hole to lock the ball for multiball.\n- Multiball starts when you lock three balls. During multiball, the center indicators will light up when a ball crosses over them. Light them all to score a jackpot.\n- The game starts with ball savers in the left and right outlanes, which disappear when used. Hit all drop targets on the left or right side to restore them.</string>
+    <string name="table5_rules" translatable="false">Table Rules:\n- The central circle has twelve points around it, 3 each of 4 colors. Shooting a top ramp will change the color of the ball and allow it to activate the points with matching color.\n- When all 12 points around the circle are activated, hitting the edges of the rotating triangle will remove them. Shoot the target in the middle of the triangle to start multiball.\n- During multiball, light the 12 circle points again to score a jackpot, which increases in value each time.\n- The game starts with ball savers in the left and right outlanes, which disappear when used. Hit all drop targets on the left or right side to restore them.</string>
+    <string name="pinballR" translatable="false">Pinball reglas</string>
+    <string name="independent_flippers_pref_title" translatable="false">Independent Flippers</string>
+    <string name="independent_flippers_pref_summary_on" translatable="false">A touch activates the flippers on the same side of the screen</string>
+
+    <string name="independent_flippers_pref_summary_off" translatable="false">Any touch activates all flippers</string>
+
+    <string name="high_quality_pref_title" translatable="false">High Quality</string>
+    <string name="high_quality_pref_summary_on" translatable="false">Higher quality but slower graphics</string>
+    <string name="high_quality_pref_summary_off" translatable="false">Lower quality but faster graphics</string>
+
+    <string name="sound_pref_title" translatable="false">Sound</string>
+    <string name="music_pref_title" translatable="false">Background Music</string>
+    <string name="show_fps_pref_title" translatable="false">Show FPS</string>
+
+    <string name="zoom_pref_title" translatable="false">Zoom Playfield</string>
+    <string name="use_opengl_pref_title" translatable="false">OpenGL Rendering</string>
+    <string name="change_table_button_label" translatable="false">Change Table</string>
+    <string name="help_button_label" translatable="false">Help</string>
+    <string name="preferences_button_label" translatable="false">Preferences</string>
+
+
+    <string name="end_game_button_label" translatable="false">End Game</string>
+    <string name="unlimited_balls_label" translatable="false">Unlimited Balls</string>
+    <string name="normal">NORMAL</string>
+    <string name="imposible">IMPOSSIBLE</string>
+    <string name="amblyomobile" translatable="false">AmblyoMobile</string>
+    <string name="no_internet">No Internet connection. Please, check the internet connection</string>
+    <string name="_privacidad">Privacy</string>
+    <string name="emailist1">Authorization of marketing messages</string>
+    <string name="emailist2">Allow us to send motivating messages and interesting information about your eye health, as well as all the news related to the functions of our apps</string>
+    <string name="emailist3">Marketing based on your activities</string>
+    <string name="emailist4">Your visual health is our priority. If you give us authorization, the advertising that we will show you and send you will be based on your lifestyle and the preferences you show on other platforms. (The modification may take a while to take effect.)</string>
+    <string name="hora_de_jugar">It\'s time to play!</string>
+    <string name="titulo_estrabismo">If you suffer astigmatism, read this</string>
+    <string name="aviso_estrabismo">There have been several people who have asked us if this application can be used to treat strabismus. Due to your concern (and ours) about the doubts that this problem concerns, if you suffer from strabismus, please read this before using the application.
+
+    \n\nThis application is designed to treat amblyopia slightly, that is, they are exercises that allow you to continue exercising the lazy eye in adults, being able to slightly correct the problem. But we start from having a healthy eye and a lazy eye. Being a problem of strabismus (in many cases triggering a problem of amblyopia due to loss of vision in one of the two eyes), the deviation of the eyes is too pronounced and in this case it can be harmful. Because this application is part of an experimental therapy, we cannot and do not have the right to be able to recommend it to people with strabismus if we cannot guarantee 100% of any adverse effects.
+
+    \n\nIn the event that you suffer from a very very mild strabismus, you could assess yourself by trying it for a couple of weeks. But please, consult an opticians professional for better advice.
+
+    \n\nIf in the future we know more about it, we will keep you informed.
+
+    \n\nA cordial greeting.</string>
+    <string name="error_player" translatable="false">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="nota">Note: The colors that will appear in the game will not necessarily correspond with those chosen in the settings, but with those that together with the background color the highest filtering on each lens is acquired.</string>
+    <string name="conect">Connect with us</string>
+    <string name="page1_title">Guide Home</string>
+    <string name="page2_title">What is Amblyo Mobile?</string>
+    <string name="page3_title">How to use Amblyo Mobile?</string>
+    <string name="page4_title">How to set colors correctly</string>
+    <string name="page5_title">Usage Policy</string>
+    <string name="mensaje_bienvenida">Welcome to Amblyo Mobile, your new application designed to cure amblyopia while you play. We have uploaded a guide to the web so you can know the application in detail, understand its operation and know how to use it. We recommend that you read all the pages so that you have no doubt. Please DO NOT use Amblyo Mobile BEFORE all your questions have been resolved. You can always contact us if you have any questions. We hope you enjoy the application like us in developing it! A hug ;)</string>
+    <string name="guia">Amblyo Mobile Guide</string>
+    <string name="page1">https://amblyomobile.app/heal-your-amblyopia-playing-amblyo-mobile/faqs-and-guide-page/</string>
+    <string name="page2">https://amblyomobile.app/heal-your-amblyopia-playing-amblyo-mobile/faqs-and-guide-page/what-is-amblyo-mobile/</string>
+    <string name="page3">https://amblyomobile.app/heal-your-amblyopia-playing-amblyo-mobile/faqs-and-guide-page/how-to-use-amblyo-mobile/</string>
+    <string name="page4">https://amblyomobile.app/heal-your-amblyopia-playing-amblyo-mobile/faqs-and-guide-page/how-to-set-colors-correctly/</string>
+    <string name="page5">https://amblyomobile.app/heal-your-amblyopia-playing-amblyo-mobile/faqs-and-guide-page/amblyo-mobile-legal-terms-and-use-policy/</string>
+    <string name="envemos">https://envemos.com/en/home/</string>
+    <string name="amblyom">https://https://amblyomobile.app/</string>
+    <string-array name="colors">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Cyan</item>
+        <item>Magenta</item>
+        <item>Green</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="ojo_selec">
+        <item>Left</item>
+        <item>Right</item>
+    </string-array>
+    <string-array name="blanco_negro">
+        <item>White</item>
+        <item>Black</item>
+    </string-array>
+
+    <string name="titulo_sesion">Session</string>
+    <string name="titulo_informacion">About the application</string>
+    <string name="titulo_configuracion">Settings</string>
+    <string name="titulo_actividad">Exercise</string>
+    <string name="titulo_alarma">Daily stopwatch</string>
+    <string name="titulo_recordatorio">Weekly reminder</string>
+    <string name="aviso_sesion">Session menu. Log in from here and update your profile information. So you can save your games in the cloud and synchronize them from any device through the same account.</string>
+    <string name="aviso_informacion">All about the application. Online guide and contact.</string>
+    <string name="aviso_configuracion">Setup Menu Set the colors, the side of the lazy eye, the background color and the sound.</string>
+    <string name="aviso_actividad">Log of your activity. General statistics and calendar of game history. It is necessary to log in as the data is linked to the games uploaded to the cloud from the account.</string>
+    <string name="aviso_alarma">Schedule the daily time (in minutes) you want to play each day. The program will notify you once you have completed the time. The counter is reset every day.</string>
+    <string name="aviso_recordatorio">Choose the days of the week that you want the application to notify you so as not to forget your training.</string>
+
+    <string name="menu_guardar">Save game</string>
+    <string name="quieres_guardar">Do you want to save the game in the cloud? Log in and check all your game history.</string>
+    <string name="guardar">Save</string>
+
+    <string name="admobbannercodesuperior"  translatable="false">ca-app-pub-7795021054645145/8900234322</string>
+    <string name="admobbannercodeinferior"  translatable="false">ca-app-pub-7795021054645145/6246150821</string>
+    <!--string name="admobbannercodeprueba"  translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admobbannercodesuperior"  translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admobbannercodeinferior"  translatable="false">ca-app-pub-3940256099942544/6300978111</string-->
+</resources>

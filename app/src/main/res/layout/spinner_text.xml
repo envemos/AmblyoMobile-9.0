@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layoutDirection="ltr"
+    android:id="@android:id/text1"
+    android:fontFamily="@font/fiery_turk"
+    android:singleLine="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ellipsize="marquee"
+    android:textSize="@dimen/SesionFontText"
+    android:textColor="@color/Negro"
+    android:padding="@dimen/padding0"
+    android:layout_margin="@dimen/padding1"
+    />
